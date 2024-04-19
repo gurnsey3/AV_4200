@@ -1,0 +1,15 @@
+[0.068s] Invoking command in '/home/tractor/ws/build/astra_camera': AMENT_PREFIX_PATH=/home/tractor/ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tractor/ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/tractor/ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tractor/ws/build/astra_camera -- -j4 -l4
+[0.393s] [35m[1mConsolidate compiler generated dependencies of target astra_camera[0m
+[0.678s] [  5%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o[0m
+[0.708s] [ 15%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node.cpp.o[0m
+[0.709s] [ 15%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ros_param_backend.cpp.o[0m
+[0.714s] [ 21%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ros_service.cpp.o[0m
+[4.612s] [01m[K/home/tractor/ws/src/ros2_astra_camera/astra_camera/src/ob_camera_info.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Knlohmann/json.hpp: No such file or directory
+[4.612s]    14 | #include [01;31m[K<nlohmann/json.hpp>[m[K
+[4.613s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.614s] compilation terminated.
+[4.631s] gmake[2]: *** [CMakeFiles/astra_camera.dir/build.make:132: CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o] Error 1
+[4.631s] gmake[2]: *** Waiting for unfinished jobs....
+[158.736s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/astra_camera.dir/all] Error 2
+[158.737s] gmake: *** [Makefile:146: all] Error 2
+[158.744s] Invoked command in '/home/tractor/ws/build/astra_camera' returned '2': AMENT_PREFIX_PATH=/home/tractor/ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tractor/ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/tractor/ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tractor/ws/build/astra_camera -- -j4 -l4

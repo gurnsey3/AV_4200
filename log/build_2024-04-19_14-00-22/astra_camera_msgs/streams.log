@@ -1,0 +1,89 @@
+[0.151s] Invoking command in '/home/tractor/ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tractor/ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/astra_camera_msgs
+[0.434s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.413s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.432s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.461s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.816s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.234s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.852s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[11.708s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.868s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[13.992s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.993s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[13.993s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[14.276s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.350s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.372s] -- Added test 'lint_cmake' to check CMake code style
+[14.383s] -- Added test 'xmllint' to check XML markup files
+[14.405s] -- Configuring done
+[14.865s] -- Generating done
+[14.886s] -- Build files have been written to: /home/tractor/ws/build/astra_camera_msgs
+[14.921s] Invoked command in '/home/tractor/ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tractor/ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/astra_camera_msgs
+[14.929s] Invoking command in '/home/tractor/ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tractor/ws/build/astra_camera_msgs -- -j4 -l4
+[15.131s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_generator_c[0m
+[15.168s] [  1%] Built target astra_camera_msgs__cpp
+[15.222s] [  2%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/device_info__functions.c.o[0m
+[15.241s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_cpp[0m
+[15.258s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[15.272s] [  2%] Built target ament_cmake_python_copy_astra_camera_msgs
+[15.345s] [  3%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/device_info__type_support.cpp.o[0m
+[15.356s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_introspection_cpp[0m
+[15.387s] [  4%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/device_info__type_support.cpp.o[0m
+[15.467s] [  5%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/device_info__type_support.cpp.o[0m
+[15.813s] [  6%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/extrinsics__functions.c.o[0m
+[16.476s] [  7%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/metadata__functions.c.o[0m
+[17.153s] [  8%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_device_info__functions.c.o[0m
+[17.304s] [  9%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[18.099s] [ 10%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_info__functions.c.o[0m
+[18.436s] [ 11%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp.o[0m
+[18.727s] [ 12%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o[0m
+[19.118s] [ 13%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_params__functions.c.o[0m
+[19.354s] [ 14%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[20.082s] [ 15%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_int32__functions.c.o[0m
+[21.037s] [ 16%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_string__functions.c.o[0m
+[21.272s] [ 17%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/metadata__type_support.cpp.o[0m
+[21.503s] [ 18%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_device_info__type_support.cpp.o[0m
+[21.830s] [ 20%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o[0m
+[21.919s] [ 21%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/set_int32__functions.c.o[0m
+[22.808s] [ 22%] [32m[1mLinking C shared library libastra_camera_msgs__rosidl_generator_c.so[0m
+[23.101s] [ 23%] Built target astra_camera_msgs__rosidl_generator_c
+[23.547s] [ 24%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_info__type_support.cpp.o[0m
+[24.243s] [ 25%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp.o[0m
+[25.022s] [ 26%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_device_info__type_support.cpp.o[0m
+[25.170s] running egg_info
+[25.359s] writing astra_camera_msgs.egg-info/PKG-INFO
+[25.362s] writing dependency_links to astra_camera_msgs.egg-info/dependency_links.txt
+[25.365s] writing top-level names to astra_camera_msgs.egg-info/top_level.txt
+[25.646s] [ 27%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_params__type_support.cpp.o[0m
+[25.905s] reading manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[25.914s] writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[26.134s] [ 27%] Built target ament_cmake_python_build_astra_camera_msgs_egg
+[26.237s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_fastrtps_c[0m
+[26.369s] [ 28%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/device_info__type_support_c.cpp.o[0m
+[27.394s] [ 29%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp.o[0m
+[27.626s] [ 30%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_int32__type_support.cpp.o[0m
+[28.566s] [ 31%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_info__type_support.cpp.o[0m
+[29.722s] [ 32%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_string__type_support.cpp.o[0m
+[29.793s] [ 33%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o[0m
+[30.383s] [ 34%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp.o[0m
+[31.689s] [ 35%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/set_int32__type_support.cpp.o[0m
+[31.870s] [ 36%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_params__type_support.cpp.o[0m
+[32.382s] [ 37%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/metadata__type_support_c.cpp.o[0m
+[33.642s] [ 38%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_int32__type_support.cpp.o[0m
+[33.693s] [ 40%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_cpp.so[0m
+[33.951s] [ 41%] Built target astra_camera_msgs__rosidl_typesupport_cpp
+[34.001s] [ 42%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_int32__type_support.cpp.o[0m
+[35.190s] [ 43%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_device_info__type_support_c.cpp.o[0m
+[35.287s] [ 44%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_string__type_support.cpp.o[0m
+[36.611s] [ 45%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_string__type_support.cpp.o[0m
+[37.473s] [ 46%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/set_int32__type_support.cpp.o[0m
+[37.526s] gmake[2]: *** [CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:334: CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_string__type_support.cpp.o] Interrupt
+[37.534s] gmake[2]: *** [CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:348: CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/set_int32__type_support.cpp.o] Interrupt
+[37.536s] gmake[2]: *** [CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:334: CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_string__type_support.cpp.o] Interrupt
+[37.537s] gmake[2]: *** [CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:278: CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_device_info__type_support_c.cpp.o] Interrupt
+[37.538s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[37.539s] gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+[37.541s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[37.542s] gmake: *** [Makefile:146: all] Interrupt
+[37.551s] Invoked command in '/home/tractor/ws/build/astra_camera_msgs' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tractor/ws/build/astra_camera_msgs -- -j4 -l4

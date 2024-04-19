@@ -1,0 +1,82 @@
+[0.130s] Invoking command in '/home/tractor/ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tractor/ws/src/Info/basic_mobile_robot/basic_mobile_robot -DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/basic_mobile_robot
+[0.903s] -- The C compiler identification is GNU 11.4.0
+[1.270s] -- The CXX compiler identification is GNU 11.4.0
+[1.309s] -- Detecting C compiler ABI info
+[1.736s] -- Detecting C compiler ABI info - done
+[1.771s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.784s] -- Detecting C compile features
+[1.788s] -- Detecting C compile features - done
+[1.824s] -- Detecting CXX compiler ABI info
+[2.744s] -- Detecting CXX compiler ABI info - done
+[2.814s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.817s] -- Detecting CXX compile features
+[2.825s] -- Detecting CXX compile features - done
+[2.902s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.201s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.564s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.684s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.835s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.849s] -- Added test 'lint_cmake' to check CMake code style
+[9.869s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.942s] -- Added test 'xmllint' to check XML markup files
+[9.977s] -- Configuring done
+[10.009s] -- Generating done
+[10.021s] -- Build files have been written to: /home/tractor/ws/build/basic_mobile_robot
+[10.050s] Invoked command in '/home/tractor/ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tractor/ws/src/Info/basic_mobile_robot/basic_mobile_robot -DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/basic_mobile_robot
+[10.052s] Invoking command in '/home/tractor/ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tractor/ws/build/basic_mobile_robot -- -j4 -l4
+[10.266s] Invoked command in '/home/tractor/ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tractor/ws/build/basic_mobile_robot -- -j4 -l4
+[10.707s] Invoking command in '/home/tractor/ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tractor/ws/build/basic_mobile_robot
+[10.781s] -- Install configuration: ""
+[10.795s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/config
+[10.798s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/config/ekf.yaml
+[10.803s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/launch
+[10.806s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v5.launch.py
+[10.810s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/maps
+[10.819s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/maps/smalltown_world.pgm
+[10.898s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/maps/smalltown_world.yaml
+[10.906s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/media
+[10.907s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes
+[10.908s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wrist.stl
+[10.919s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/elbow.stl
+[10.923s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bicep.stl
+[10.927s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/arm_base.stl
+[10.937s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/robot_base.stl
+[10.943s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheel.stl
+[10.944s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models
+[10.945s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v2.urdf
+[10.960s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description
+[10.962s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.config
+[10.964s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.sdf
+[10.966s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes
+[10.967s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wrist.stl
+[10.972s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/elbow.stl
+[10.975s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/bicep.stl
+[10.983s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/arm_base.stl
+[10.988s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/robot_base.stl
+[10.989s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wheel.stl
+[10.990s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v1.urdf
+[10.991s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/params
+[10.992s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/params/nav2_params.yaml
+[10.993s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz
+[10.994s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/urdf_config.rviz
+[10.996s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/nav2_config.rviz
+[10.999s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/src
+[11.000s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds
+[11.001s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds/basic_mobile_bot_world
+[11.001s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds/basic_mobile_bot_world/smalltown.world
+[11.005s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/ament_index/resource_index/package_run_dependencies/basic_mobile_robot
+[11.008s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/ament_index/resource_index/parent_prefix_path/basic_mobile_robot
+[11.009s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.sh
+[11.011s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.dsv
+[11.012s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.sh
+[11.014s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.dsv
+[11.016s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.bash
+[11.021s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.sh
+[11.022s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.zsh
+[11.030s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.dsv
+[11.031s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv
+[11.033s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/ament_index/resource_index/packages/basic_mobile_robot
+[11.035s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig.cmake
+[11.037s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig-version.cmake
+[11.038s] -- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/package.xml
+[11.048s] Invoked command in '/home/tractor/ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tractor/ws/build/basic_mobile_robot

@@ -1,0 +1,688 @@
+[0.000000] (-) TimerEvent: {}
+[0.001634] (astra_camera_msgs) JobQueued: {'identifier': 'astra_camera_msgs', 'dependencies': OrderedDict()}
+[0.001762] (basic_mobile_robot) JobQueued: {'identifier': 'basic_mobile_robot', 'dependencies': OrderedDict()}
+[0.001844] (libuvc) JobQueued: {'identifier': 'libuvc', 'dependencies': OrderedDict()}
+[0.001921] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.001997] (astra_camera) JobQueued: {'identifier': 'astra_camera', 'dependencies': OrderedDict([('astra_camera_msgs', '/home/tractor/ws/install/astra_camera_msgs')])}
+[0.002084] (astra_camera_msgs) JobStarted: {'identifier': 'astra_camera_msgs'}
+[0.049211] (basic_mobile_robot) JobStarted: {'identifier': 'basic_mobile_robot'}
+[0.071246] (libuvc) JobStarted: {'identifier': 'libuvc'}
+[0.092020] (robot) JobStarted: {'identifier': 'robot'}
+[0.101241] (-) TimerEvent: {}
+[0.141460] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'cmake'}
+[0.150442] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/tractor/ws/src/ros2_astra_camera/astra_camera_msgs', '-DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/astra_camera_msgs'], 'cwd': '/home/tractor/ws/build/astra_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tractor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tractor'), ('OLDPWD', '/home/tractor/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1787'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tractor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tractor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tractor-desktop:@/tmp/.ICE-unix/1787,unix/tractor-desktop:/tmp/.ICE-unix/1787'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b855e477_8fa6_447b_93cf_64a659e25d36'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IYVZM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tractor/ws/build/astra_camera_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.168233] (basic_mobile_robot) JobProgress: {'identifier': 'basic_mobile_robot', 'progress': 'cmake'}
+[0.169161] (basic_mobile_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/tractor/ws/src/Info/basic_mobile_robot/basic_mobile_robot', '-DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/basic_mobile_robot'], 'cwd': '/home/tractor/ws/build/basic_mobile_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tractor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tractor'), ('OLDPWD', '/home/tractor/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1787'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tractor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tractor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tractor-desktop:@/tmp/.ICE-unix/1787,unix/tractor-desktop:/tmp/.ICE-unix/1787'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b855e477_8fa6_447b_93cf_64a659e25d36'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IYVZM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tractor/ws/build/basic_mobile_robot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.180741] (libuvc) JobProgress: {'identifier': 'libuvc', 'progress': 'cmake'}
+[0.187275] (libuvc) Command: {'cmd': ['/usr/bin/cmake', '/home/tractor/ws/src/libuvc', '-DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/libuvc'], 'cwd': '/home/tractor/ws/build/libuvc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tractor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tractor'), ('OLDPWD', '/home/tractor/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1787'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tractor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tractor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tractor-desktop:@/tmp/.ICE-unix/1787,unix/tractor-desktop:/tmp/.ICE-unix/1787'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b855e477_8fa6_447b_93cf_64a659e25d36'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IYVZM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tractor/ws/build/libuvc'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.203088] (-) TimerEvent: {}
+[0.303972] (-) TimerEvent: {}
+[0.404937] (-) TimerEvent: {}
+[0.435786] (astra_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.450862] (libuvc) StdoutLine: {'line': b'-- libusb-1.0 found using pkgconfig\n'}
+[0.505191] (-) TimerEvent: {}
+[0.606750] (-) TimerEvent: {}
+[0.708301] (-) TimerEvent: {}
+[0.809725] (-) TimerEvent: {}
+[0.911834] (-) TimerEvent: {}
+[0.951340] (basic_mobile_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.012014] (-) TimerEvent: {}
+[1.036931] (libuvc) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.038080] (libuvc) StdoutLine: {'line': b'-- Found JPEG library using standard module\n'}
+[1.046715] (libuvc) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[1.047830] (libuvc) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (JPEG) does\n'}
+[1.048460] (libuvc) StderrLine: {'line': b'  not match the name of the calling package (JpegPkg).  This can lead to\n'}
+[1.049013] (libuvc) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[1.049591] (libuvc) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[1.050178] (libuvc) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.050727] (libuvc) StderrLine: {'line': b'  cmake/FindJpegPkg.cmake:58 (find_package_handle_standard_args)\n'}
+[1.051342] (libuvc) StderrLine: {'line': b'  CMakeLists.txt:45 (find_package)\n'}
+[1.051986] (libuvc) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.052595] (libuvc) StderrLine: {'line': b'\x1b[0m\n'}
+[1.053111] (libuvc) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so  \n'}
+[1.053650] (libuvc) StdoutLine: {'line': b'-- Building libuvc with JPEG support.\n'}
+[1.100396] (libuvc) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.112264] (-) TimerEvent: {}
+[1.206747] (libuvc) StdoutLine: {'line': b'-- Generating done\n'}
+[1.212480] (-) TimerEvent: {}
+[1.220033] (libuvc) StdoutLine: {'line': b'-- Build files have been written to: /home/tractor/ws/build/libuvc\n'}
+[1.312694] (-) TimerEvent: {}
+[1.319688] (basic_mobile_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.358318] (basic_mobile_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.412909] (-) TimerEvent: {}
+[1.414377] (astra_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.433706] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.462293] (astra_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.513184] (-) TimerEvent: {}
+[1.615529] (-) TimerEvent: {}
+[1.634574] (libuvc) CommandEnded: {'returncode': 0}
+[1.636060] (libuvc) JobProgress: {'identifier': 'libuvc', 'progress': 'build'}
+[1.636224] (libuvc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tractor/ws/build/libuvc', '--', '-j4', '-l4'], 'cwd': '/home/tractor/ws/build/libuvc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tractor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tractor'), ('OLDPWD', '/home/tractor/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1787'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tractor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tractor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tractor-desktop:@/tmp/.ICE-unix/1787,unix/tractor-desktop:/tmp/.ICE-unix/1787'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b855e477_8fa6_447b_93cf_64a659e25d36'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IYVZM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tractor/ws/build/libuvc'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.715778] (-) TimerEvent: {}
+[1.784989] (basic_mobile_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.816003] (-) TimerEvent: {}
+[1.817719] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.820120] (basic_mobile_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.833312] (basic_mobile_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.837321] (basic_mobile_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.873284] (basic_mobile_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.887590] (libuvc) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target uvc\x1b[0m\n'}
+[1.889864] (libuvc) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target uvc_static\x1b[0m\n'}
+[1.916233] (-) TimerEvent: {}
+[1.981532] (libuvc) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl.c.o\x1b[0m\n'}
+[1.998379] (libuvc) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/uvc.dir/src/ctrl.c.o\x1b[0m\n'}
+[2.016408] (-) TimerEvent: {}
+[2.017605] (libuvc) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl-gen.c.o\x1b[0m\n'}
+[2.062895] (libuvc) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/uvc.dir/src/ctrl-gen.c.o\x1b[0m\n'}
+[2.116773] (-) TimerEvent: {}
+[2.218422] (-) TimerEvent: {}
+[2.235243] (astra_camera_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.318623] (-) TimerEvent: {}
+[2.419999] (-) TimerEvent: {}
+[2.521003] (-) TimerEvent: {}
+[2.622842] (-) TimerEvent: {}
+[2.724642] (-) TimerEvent: {}
+[2.789018] (libuvc) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/uvc.dir/src/device.c.o\x1b[0m\n'}
+[2.793202] (basic_mobile_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.801752] (libuvc) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/uvc_static.dir/src/device.c.o\x1b[0m\n'}
+[2.824858] (-) TimerEvent: {}
+[2.863384] (basic_mobile_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.866262] (basic_mobile_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.874400] (basic_mobile_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.925146] (-) TimerEvent: {}
+[2.951147] (basic_mobile_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.025364] (-) TimerEvent: {}
+[3.126833] (-) TimerEvent: {}
+[3.229193] (-) TimerEvent: {}
+[3.330211] (-) TimerEvent: {}
+[3.431251] (-) TimerEvent: {}
+[3.532905] (-) TimerEvent: {}
+[3.634626] (-) TimerEvent: {}
+[3.735612] (-) TimerEvent: {}
+[3.836658] (-) TimerEvent: {}
+[3.937875] (-) TimerEvent: {}
+[4.039130] (-) TimerEvent: {}
+[4.140144] (-) TimerEvent: {}
+[4.242049] (-) TimerEvent: {}
+[4.343899] (-) TimerEvent: {}
+[4.445479] (-) TimerEvent: {}
+[4.547569] (-) TimerEvent: {}
+[4.649127] (-) TimerEvent: {}
+[4.750702] (-) TimerEvent: {}
+[4.852158] (-) TimerEvent: {}
+[4.954553] (-) TimerEvent: {}
+[5.056085] (-) TimerEvent: {}
+[5.157709] (-) TimerEvent: {}
+[5.259355] (-) TimerEvent: {}
+[5.362459] (-) TimerEvent: {}
+[5.464210] (-) TimerEvent: {}
+[5.566002] (-) TimerEvent: {}
+[5.668286] (-) TimerEvent: {}
+[5.769977] (-) TimerEvent: {}
+[5.872098] (-) TimerEvent: {}
+[5.969885] (libuvc) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/uvc.dir/src/diag.c.o\x1b[0m\n'}
+[5.972384] (-) TimerEvent: {}
+[6.019341] (libuvc) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/uvc.dir/src/frame.c.o\x1b[0m\n'}
+[6.072644] (-) TimerEvent: {}
+[6.112755] (libuvc) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/uvc_static.dir/src/diag.c.o\x1b[0m\n'}
+[6.172875] (-) TimerEvent: {}
+[6.273854] (-) TimerEvent: {}
+[6.375298] (-) TimerEvent: {}
+[6.476643] (-) TimerEvent: {}
+[6.577587] (-) TimerEvent: {}
+[6.645935] (libuvc) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/uvc_static.dir/src/frame.c.o\x1b[0m\n'}
+[6.677866] (-) TimerEvent: {}
+[6.779761] (-) TimerEvent: {}
+[6.881569] (-) TimerEvent: {}
+[6.983296] (-) TimerEvent: {}
+[7.085263] (-) TimerEvent: {}
+[7.133510] (libuvc) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/uvc.dir/src/init.c.o\x1b[0m\n'}
+[7.143339] (libuvc) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/uvc_static.dir/src/init.c.o\x1b[0m\n'}
+[7.185635] (-) TimerEvent: {}
+[7.250077] (basic_mobile_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.285856] (-) TimerEvent: {}
+[7.387434] (-) TimerEvent: {}
+[7.488812] (-) TimerEvent: {}
+[7.590048] (-) TimerEvent: {}
+[7.691848] (-) TimerEvent: {}
+[7.793382] (-) TimerEvent: {}
+[7.846567] (libuvc) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/uvc.dir/src/stream.c.o\x1b[0m\n'}
+[7.861690] (libuvc) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/uvc.dir/src/misc.c.o\x1b[0m\n'}
+[7.893596] (-) TimerEvent: {}
+[7.994634] (-) TimerEvent: {}
+[8.095623] (-) TimerEvent: {}
+[8.197113] (-) TimerEvent: {}
+[8.261624] (libuvc) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/uvc.dir/src/frame-mjpeg.c.o\x1b[0m\n'}
+[8.297333] (-) TimerEvent: {}
+[8.398326] (-) TimerEvent: {}
+[8.499489] (-) TimerEvent: {}
+[8.600850] (-) TimerEvent: {}
+[8.613493] (basic_mobile_robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.701145] (-) TimerEvent: {}
+[8.802231] (-) TimerEvent: {}
+[8.853444] (astra_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.903659] (-) TimerEvent: {}
+[9.005952] (libuvc) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/uvc_static.dir/src/stream.c.o\x1b[0m\n'}
+[9.007065] (-) TimerEvent: {}
+[9.108866] (-) TimerEvent: {}
+[9.130753] (libuvc) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/uvc_static.dir/src/misc.c.o\x1b[0m\n'}
+[9.209291] (-) TimerEvent: {}
+[9.311551] (-) TimerEvent: {}
+[9.413066] (-) TimerEvent: {}
+[9.456904] (libuvc) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/uvc_static.dir/src/frame-mjpeg.c.o\x1b[0m\n'}
+[9.513343] (-) TimerEvent: {}
+[9.614376] (-) TimerEvent: {}
+[9.715493] (-) TimerEvent: {}
+[9.732852] (basic_mobile_robot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.815923] (-) TimerEvent: {}
+[9.884679] (basic_mobile_robot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.898459] (basic_mobile_robot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.916117] (-) TimerEvent: {}
+[9.918017] (basic_mobile_robot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.990803] (basic_mobile_robot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.016338] (-) TimerEvent: {}
+[10.025828] (basic_mobile_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.057687] (basic_mobile_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[10.070076] (basic_mobile_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/tractor/ws/build/basic_mobile_robot\n'}
+[10.098648] (basic_mobile_robot) CommandEnded: {'returncode': 0}
+[10.100682] (basic_mobile_robot) JobProgress: {'identifier': 'basic_mobile_robot', 'progress': 'build'}
+[10.100927] (basic_mobile_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tractor/ws/build/basic_mobile_robot', '--', '-j4', '-l4'], 'cwd': '/home/tractor/ws/build/basic_mobile_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tractor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tractor'), ('OLDPWD', '/home/tractor/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1787'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tractor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tractor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tractor-desktop:@/tmp/.ICE-unix/1787,unix/tractor-desktop:/tmp/.ICE-unix/1787'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b855e477_8fa6_447b_93cf_64a659e25d36'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IYVZM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tractor/ws/build/basic_mobile_robot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.116693] (-) TimerEvent: {}
+[10.217891] (-) TimerEvent: {}
+[10.315058] (basic_mobile_robot) CommandEnded: {'returncode': 0}
+[10.318128] (-) TimerEvent: {}
+[10.419147] (-) TimerEvent: {}
+[10.520214] (-) TimerEvent: {}
+[10.527006] (libuvc) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libuvc.so\x1b[0m\n'}
+[10.620395] (-) TimerEvent: {}
+[10.636760] (basic_mobile_robot) JobProgress: {'identifier': 'basic_mobile_robot', 'progress': 'install'}
+[10.720736] (-) TimerEvent: {}
+[10.755724] (basic_mobile_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tractor/ws/build/basic_mobile_robot'], 'cwd': '/home/tractor/ws/build/basic_mobile_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tractor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tractor'), ('OLDPWD', '/home/tractor/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1787'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tractor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tractor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tractor-desktop:@/tmp/.ICE-unix/1787,unix/tractor-desktop:/tmp/.ICE-unix/1787'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b855e477_8fa6_447b_93cf_64a659e25d36'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IYVZM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tractor/ws/build/basic_mobile_robot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.774038] (robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/tractor/ws/build/robot/build', 'install', '--record', '/home/tractor/ws/build/robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tractor/ws/src/robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tractor', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tractor', 'OLDPWD': '/home/tractor/ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1787', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tractor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tractor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tractor-desktop:@/tmp/.ICE-unix/1787,unix/tractor-desktop:/tmp/.ICE-unix/1787', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b855e477_8fa6_447b_93cf_64a659e25d36', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IYVZM2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tractor/ws/build/robot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tractor/ws/build/robot/prefix_override:/home/tractor/ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.821911] (-) TimerEvent: {}
+[10.829526] (basic_mobile_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.843693] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/config\n'}
+[10.846807] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/config/ekf.yaml\n'}
+[10.851104] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/launch\n'}
+[10.854683] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v5.launch.py\n'}
+[10.859251] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/maps\n'}
+[10.868201] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/maps/smalltown_world.pgm\n'}
+[10.922142] (-) TimerEvent: {}
+[10.947253] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/maps/smalltown_world.yaml\n'}
+[10.955374] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/media\n'}
+[10.956454] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes\n'}
+[10.957019] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wrist.stl\n'}
+[10.967827] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/elbow.stl\n'}
+[10.971018] (libuvc) StdoutLine: {'line': b'[ 86%] Built target uvc\n'}
+[10.971933] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bicep.stl\n'}
+[10.975928] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/arm_base.stl\n'}
+[10.986271] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/robot_base.stl\n'}
+[10.991887] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheel.stl\n'}
+[10.993058] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models\n'}
+[10.994000] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v2.urdf\n'}
+[11.007870] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description\n'}
+[11.010083] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.config\n'}
+[11.012595] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.sdf\n'}
+[11.014841] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes\n'}
+[11.016049] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wrist.stl\n'}
+[11.020882] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/elbow.stl\n'}
+[11.022422] (-) TimerEvent: {}
+[11.024246] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/bicep.stl\n'}
+[11.032110] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/arm_base.stl\n'}
+[11.035849] (libuvc) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target example\x1b[0m\n'}
+[11.036776] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/robot_base.stl\n'}
+[11.037908] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wheel.stl\n'}
+[11.039049] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v1.urdf\n'}
+[11.040340] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/params\n'}
+[11.041301] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/params/nav2_params.yaml\n'}
+[11.042449] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz\n'}
+[11.043596] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/urdf_config.rviz\n'}
+[11.045032] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/nav2_config.rviz\n'}
+[11.047926] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/src\n'}
+[11.048892] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds\n'}
+[11.049821] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds/basic_mobile_bot_world\n'}
+[11.050743] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds/basic_mobile_bot_world/smalltown.world\n'}
+[11.053756] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/ament_index/resource_index/package_run_dependencies/basic_mobile_robot\n'}
+[11.057477] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/ament_index/resource_index/parent_prefix_path/basic_mobile_robot\n'}
+[11.058373] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.sh\n'}
+[11.060132] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.dsv\n'}
+[11.061615] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.sh\n'}
+[11.063058] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.dsv\n'}
+[11.064910] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.bash\n'}
+[11.070567] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.sh\n'}
+[11.071279] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.zsh\n'}
+[11.079440] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.dsv\n'}
+[11.080773] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv\n'}
+[11.082703] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/ament_index/resource_index/packages/basic_mobile_robot\n'}
+[11.084503] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig.cmake\n'}
+[11.085775] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig-version.cmake\n'}
+[11.087296] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/basic_mobile_robot/share/basic_mobile_robot/package.xml\n'}
+[11.096756] (basic_mobile_robot) CommandEnded: {'returncode': 0}
+[11.122654] (-) TimerEvent: {}
+[11.133841] (libuvc) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/example.dir/src/example.c.o\x1b[0m\n'}
+[11.223026] (-) TimerEvent: {}
+[11.324648] (-) TimerEvent: {}
+[11.425635] (-) TimerEvent: {}
+[11.525548] (libuvc) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C executable example\x1b[0m\n'}
+[11.527782] (-) TimerEvent: {}
+[11.630597] (-) TimerEvent: {}
+[11.645522] (basic_mobile_robot) JobEnded: {'identifier': 'basic_mobile_robot', 'rc': 0}
+[11.709844] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.730858] (-) TimerEvent: {}
+[11.788273] (libuvc) StdoutLine: {'line': b'[ 95%] Built target example\n'}
+[11.831083] (-) TimerEvent: {}
+[11.907072] (libuvc) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C static library libuvc.a\x1b[0m\n'}
+[11.931289] (-) TimerEvent: {}
+[12.032067] (-) TimerEvent: {}
+[12.098752] (libuvc) StdoutLine: {'line': b'[100%] Built target uvc_static\n'}
+[12.132425] (-) TimerEvent: {}
+[12.155578] (libuvc) CommandEnded: {'returncode': 0}
+[12.232562] (-) TimerEvent: {}
+[12.333289] (-) TimerEvent: {}
+[12.429239] (libuvc) JobProgress: {'identifier': 'libuvc', 'progress': 'install'}
+[12.430078] (libuvc) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tractor/ws/build/libuvc'], 'cwd': '/home/tractor/ws/build/libuvc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tractor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tractor'), ('OLDPWD', '/home/tractor/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1787'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tractor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tractor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tractor-desktop:@/tmp/.ICE-unix/1787,unix/tractor-desktop:/tmp/.ICE-unix/1787'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b855e477_8fa6_447b_93cf_64a659e25d36'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IYVZM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tractor/ws/build/libuvc'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[12.436852] (-) TimerEvent: {}
+[12.471811] (libuvc) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[12.472803] (libuvc) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/libuvc/lib/libuvc.so.0.0.7\n'}
+[12.477139] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/libuvc.so.0\n'}
+[12.478749] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/libuvc.so\n'}
+[12.481280] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/include/libuvc/libuvc.h\n'}
+[12.482949] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/include/libuvc/libuvc_config.h\n'}
+[12.484478] (libuvc) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/libuvc/lib/libuvc.a\n'}
+[12.488093] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/include/libuvc/libuvc.h\n'}
+[12.489389] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/include/libuvc/libuvc_config.h\n'}
+[12.494092] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake\n'}
+[12.495943] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake\n'}
+[12.497562] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake\n'}
+[12.498943] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake\n'}
+[12.499992] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake\n'}
+[12.500947] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/pkgconfig/libuvc.pc\n'}
+[12.501735] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake\n'}
+[12.507767] (libuvc) CommandEnded: {'returncode': 0}
+[12.537042] (-) TimerEvent: {}
+[12.589417] (libuvc) JobEnded: {'identifier': 'libuvc', 'rc': 0}
+[12.637706] (-) TimerEvent: {}
+[12.694436] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[12.695925] (robot) StdoutLine: {'line': b'creating ../../build/robot/robot.egg-info\n'}
+[12.737814] (-) TimerEvent: {}
+[12.793909] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[12.796462] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[12.797555] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[12.798693] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[12.799453] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[12.800268] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[12.837962] (-) TimerEvent: {}
+[12.938775] (-) TimerEvent: {}
+[12.949375] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[12.950698] (robot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[12.953087] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[12.953827] (robot) StdoutLine: {'line': b'running build\n'}
+[12.954488] (robot) StdoutLine: {'line': b'running build_py\n'}
+[12.955153] (robot) StdoutLine: {'line': b'creating /home/tractor/ws/build/robot/build\n'}
+[12.955810] (robot) StdoutLine: {'line': b'creating /home/tractor/ws/build/robot/build/lib\n'}
+[12.956474] (robot) StdoutLine: {'line': b'creating /home/tractor/ws/build/robot/build/lib/robot\n'}
+[12.957067] (robot) StdoutLine: {'line': b'copying robot/startRobot.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[12.957854] (robot) StdoutLine: {'line': b'copying robot/Locomotion.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[12.958897] (robot) StdoutLine: {'line': b'copying robot/__init__.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[12.960390] (robot) StdoutLine: {'line': b'running install\n'}
+[12.985822] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[13.038967] (-) TimerEvent: {}
+[13.077638] (robot) StdoutLine: {'line': b'creating /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[13.078682] (robot) StdoutLine: {'line': b'copying /home/tractor/ws/build/robot/build/lib/robot/startRobot.py -> /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[13.079261] (robot) StdoutLine: {'line': b'copying /home/tractor/ws/build/robot/build/lib/robot/Locomotion.py -> /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[13.079770] (robot) StdoutLine: {'line': b'copying /home/tractor/ws/build/robot/build/lib/robot/__init__.py -> /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[13.080203] (robot) StdoutLine: {'line': b'byte-compiling /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot/startRobot.py to startRobot.cpython-310.pyc\n'}
+[13.081041] (robot) StdoutLine: {'line': b'byte-compiling /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot/Locomotion.py to Locomotion.cpython-310.pyc\n'}
+[13.086893] (robot) StdoutLine: {'line': b'byte-compiling /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot/__init__.py to __init__.cpython-310.pyc\n'}
+[13.088332] (robot) StdoutLine: {'line': b'running install_data\n'}
+[13.089243] (robot) StdoutLine: {'line': b'creating /home/tractor/ws/install/robot/share/ament_index\n'}
+[13.090259] (robot) StdoutLine: {'line': b'creating /home/tractor/ws/install/robot/share/ament_index/resource_index\n'}
+[13.091101] (robot) StdoutLine: {'line': b'creating /home/tractor/ws/install/robot/share/ament_index/resource_index/packages\n'}
+[13.091631] (robot) StdoutLine: {'line': b'copying resource/robot -> /home/tractor/ws/install/robot/share/ament_index/resource_index/packages\n'}
+[13.093743] (robot) StdoutLine: {'line': b'copying package.xml -> /home/tractor/ws/install/robot/share/robot\n'}
+[13.094584] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.139137] (-) TimerEvent: {}
+[13.195838] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info\n'}
+[13.225590] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[13.239353] (-) TimerEvent: {}
+[13.340591] (-) TimerEvent: {}
+[13.441639] (-) TimerEvent: {}
+[13.542356] (-) TimerEvent: {}
+[13.643379] (-) TimerEvent: {}
+[13.742215] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.743533] (-) TimerEvent: {}
+[13.844465] (-) TimerEvent: {}
+[13.869282] (astra_camera_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[13.944644] (-) TimerEvent: {}
+[13.994022] (astra_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[13.994775] (astra_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[13.995180] (astra_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[14.044812] (-) TimerEvent: {}
+[14.101097] (robot) StdoutLine: {'line': b'Installing Locomotion script to /home/tractor/ws/install/robot/lib/robot\n'}
+[14.103620] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/tractor/ws/build/robot/install.log'\n"}
+[14.145222] (-) TimerEvent: {}
+[14.246727] (-) TimerEvent: {}
+[14.258867] (robot) CommandEnded: {'returncode': 0}
+[14.277371] (astra_camera_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[14.290140] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[14.346904] (-) TimerEvent: {}
+[14.351908] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[14.374091] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.384897] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.406056] (astra_camera_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.447095] (-) TimerEvent: {}
+[14.547853] (-) TimerEvent: {}
+[14.648627] (-) TimerEvent: {}
+[14.749338] (-) TimerEvent: {}
+[14.850142] (-) TimerEvent: {}
+[14.866313] (astra_camera_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[14.887793] (astra_camera_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/tractor/ws/build/astra_camera_msgs\n'}
+[14.922906] (astra_camera_msgs) CommandEnded: {'returncode': 0}
+[14.924834] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'build'}
+[14.925895] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tractor/ws/build/astra_camera_msgs', '--', '-j4', '-l4'], 'cwd': '/home/tractor/ws/build/astra_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tractor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tractor'), ('OLDPWD', '/home/tractor/ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1787'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tractor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tractor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tractor-desktop:@/tmp/.ICE-unix/1787,unix/tractor-desktop:/tmp/.ICE-unix/1787'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b855e477_8fa6_447b_93cf_64a659e25d36'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IYVZM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tractor/ws/build/astra_camera_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0bb848e70ccb64336d3572af66229297'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.950366] (-) TimerEvent: {}
+[15.051149] (-) TimerEvent: {}
+[15.132646] (astra_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_generator_c\x1b[0m\n'}
+[15.151488] (-) TimerEvent: {}
+[15.169473] (astra_camera_msgs) StdoutLine: {'line': b'[  1%] Built target astra_camera_msgs__cpp\n'}
+[15.223977] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/device_info__functions.c.o\x1b[0m\n'}
+[15.242046] (astra_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[15.251685] (-) TimerEvent: {}
+[15.260001] (astra_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[15.273906] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_astra_camera_msgs\n'}
+[15.345877] (astra_camera_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/device_info__type_support.cpp.o\x1b[0m\n'}
+[15.351894] (-) TimerEvent: {}
+[15.357954] (astra_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[15.388300] (astra_camera_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/device_info__type_support.cpp.o\x1b[0m\n'}
+[15.452221] (-) TimerEvent: {}
+[15.468183] (astra_camera_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/device_info__type_support.cpp.o\x1b[0m\n'}
+[15.552504] (-) TimerEvent: {}
+[15.653307] (-) TimerEvent: {}
+[15.754107] (-) TimerEvent: {}
+[15.814614] (astra_camera_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/extrinsics__functions.c.o\x1b[0m\n'}
+[15.854387] (-) TimerEvent: {}
+[15.955306] (-) TimerEvent: {}
+[16.056402] (-) TimerEvent: {}
+[16.157422] (-) TimerEvent: {}
+[16.258443] (-) TimerEvent: {}
+[16.359634] (-) TimerEvent: {}
+[16.460870] (-) TimerEvent: {}
+[16.477461] (astra_camera_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/metadata__functions.c.o\x1b[0m\n'}
+[16.561195] (-) TimerEvent: {}
+[16.662315] (-) TimerEvent: {}
+[16.763595] (-) TimerEvent: {}
+[16.864860] (-) TimerEvent: {}
+[16.966005] (-) TimerEvent: {}
+[17.067229] (-) TimerEvent: {}
+[17.154048] (astra_camera_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_device_info__functions.c.o\x1b[0m\n'}
+[17.167588] (-) TimerEvent: {}
+[17.268586] (-) TimerEvent: {}
+[17.304600] (astra_camera_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[17.369217] (-) TimerEvent: {}
+[17.471788] (-) TimerEvent: {}
+[17.573585] (-) TimerEvent: {}
+[17.675126] (-) TimerEvent: {}
+[17.776551] (-) TimerEvent: {}
+[17.877648] (-) TimerEvent: {}
+[17.978809] (-) TimerEvent: {}
+[18.079900] (-) TimerEvent: {}
+[18.100754] (astra_camera_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_info__functions.c.o\x1b[0m\n'}
+[18.180172] (-) TimerEvent: {}
+[18.281149] (-) TimerEvent: {}
+[18.383215] (-) TimerEvent: {}
+[18.436776] (astra_camera_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[18.483517] (-) TimerEvent: {}
+[18.584795] (-) TimerEvent: {}
+[18.685641] (-) TimerEvent: {}
+[18.728477] (astra_camera_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[18.785979] (-) TimerEvent: {}
+[18.887102] (-) TimerEvent: {}
+[18.988141] (-) TimerEvent: {}
+[19.089236] (-) TimerEvent: {}
+[19.118939] (astra_camera_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_params__functions.c.o\x1b[0m\n'}
+[19.189514] (-) TimerEvent: {}
+[19.290768] (-) TimerEvent: {}
+[19.355635] (astra_camera_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/metadata__type_support.cpp.o\x1b[0m\n'}
+[19.391116] (-) TimerEvent: {}
+[19.492401] (-) TimerEvent: {}
+[19.593526] (-) TimerEvent: {}
+[19.694717] (-) TimerEvent: {}
+[19.795932] (-) TimerEvent: {}
+[19.897030] (-) TimerEvent: {}
+[19.998233] (-) TimerEvent: {}
+[20.083734] (astra_camera_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_int32__functions.c.o\x1b[0m\n'}
+[20.098481] (-) TimerEvent: {}
+[20.199624] (-) TimerEvent: {}
+[20.300852] (-) TimerEvent: {}
+[20.405050] (-) TimerEvent: {}
+[20.506246] (-) TimerEvent: {}
+[20.607437] (-) TimerEvent: {}
+[20.708575] (-) TimerEvent: {}
+[20.809723] (-) TimerEvent: {}
+[20.910877] (-) TimerEvent: {}
+[21.012065] (-) TimerEvent: {}
+[21.038454] (astra_camera_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_string__functions.c.o\x1b[0m\n'}
+[21.112401] (-) TimerEvent: {}
+[21.213760] (-) TimerEvent: {}
+[21.273065] (astra_camera_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/metadata__type_support.cpp.o\x1b[0m\n'}
+[21.314203] (-) TimerEvent: {}
+[21.415246] (-) TimerEvent: {}
+[21.504383] (astra_camera_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_device_info__type_support.cpp.o\x1b[0m\n'}
+[21.515513] (-) TimerEvent: {}
+[21.616560] (-) TimerEvent: {}
+[21.717523] (-) TimerEvent: {}
+[21.818648] (-) TimerEvent: {}
+[21.831402] (astra_camera_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o\x1b[0m\n'}
+[21.918848] (-) TimerEvent: {}
+[21.920682] (astra_camera_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/set_int32__functions.c.o\x1b[0m\n'}
+[22.019082] (-) TimerEvent: {}
+[22.120414] (-) TimerEvent: {}
+[22.221995] (-) TimerEvent: {}
+[22.323145] (-) TimerEvent: {}
+[22.424472] (-) TimerEvent: {}
+[22.525845] (-) TimerEvent: {}
+[22.626976] (-) TimerEvent: {}
+[22.728143] (-) TimerEvent: {}
+[22.809000] (astra_camera_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libastra_camera_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[22.828504] (-) TimerEvent: {}
+[22.929787] (-) TimerEvent: {}
+[23.031234] (-) TimerEvent: {}
+[23.102475] (astra_camera_msgs) StdoutLine: {'line': b'[ 23%] Built target astra_camera_msgs__rosidl_generator_c\n'}
+[23.131478] (-) TimerEvent: {}
+[23.232544] (-) TimerEvent: {}
+[23.333809] (-) TimerEvent: {}
+[23.434865] (-) TimerEvent: {}
+[23.535870] (-) TimerEvent: {}
+[23.548553] (astra_camera_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_info__type_support.cpp.o\x1b[0m\n'}
+[23.636129] (-) TimerEvent: {}
+[23.737200] (-) TimerEvent: {}
+[23.838244] (-) TimerEvent: {}
+[23.939514] (-) TimerEvent: {}
+[24.040676] (-) TimerEvent: {}
+[24.141896] (-) TimerEvent: {}
+[24.243183] (-) TimerEvent: {}
+[24.244301] (astra_camera_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp.o\x1b[0m\n'}
+[24.343461] (-) TimerEvent: {}
+[24.445236] (-) TimerEvent: {}
+[24.546450] (-) TimerEvent: {}
+[24.647535] (-) TimerEvent: {}
+[24.749782] (-) TimerEvent: {}
+[24.850800] (-) TimerEvent: {}
+[24.951874] (-) TimerEvent: {}
+[25.023571] (astra_camera_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_device_info__type_support.cpp.o\x1b[0m\n'}
+[25.052104] (-) TimerEvent: {}
+[25.153058] (-) TimerEvent: {}
+[25.171462] (astra_camera_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[25.253335] (-) TimerEvent: {}
+[25.354352] (-) TimerEvent: {}
+[25.360343] (astra_camera_msgs) StdoutLine: {'line': b'writing astra_camera_msgs.egg-info/PKG-INFO\n'}
+[25.363510] (astra_camera_msgs) StdoutLine: {'line': b'writing dependency_links to astra_camera_msgs.egg-info/dependency_links.txt\n'}
+[25.366291] (astra_camera_msgs) StdoutLine: {'line': b'writing top-level names to astra_camera_msgs.egg-info/top_level.txt\n'}
+[25.454554] (-) TimerEvent: {}
+[25.555399] (-) TimerEvent: {}
+[25.647330] (astra_camera_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_params__type_support.cpp.o\x1b[0m\n'}
+[25.655590] (-) TimerEvent: {}
+[25.756513] (-) TimerEvent: {}
+[25.857541] (-) TimerEvent: {}
+[25.906868] (astra_camera_msgs) StdoutLine: {'line': b"reading manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[25.915170] (astra_camera_msgs) StdoutLine: {'line': b"writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[25.958273] (-) TimerEvent: {}
+[26.059791] (-) TimerEvent: {}
+[26.135648] (astra_camera_msgs) StdoutLine: {'line': b'[ 27%] Built target ament_cmake_python_build_astra_camera_msgs_egg\n'}
+[26.160043] (-) TimerEvent: {}
+[26.238858] (astra_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[26.260305] (-) TimerEvent: {}
+[26.361405] (-) TimerEvent: {}
+[26.370667] (astra_camera_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/device_info__type_support_c.cpp.o\x1b[0m\n'}
+[26.461664] (-) TimerEvent: {}
+[26.562870] (-) TimerEvent: {}
+[26.663911] (-) TimerEvent: {}
+[26.764896] (-) TimerEvent: {}
+[26.866249] (-) TimerEvent: {}
+[26.967326] (-) TimerEvent: {}
+[27.068517] (-) TimerEvent: {}
+[27.169819] (-) TimerEvent: {}
+[27.271043] (-) TimerEvent: {}
+[27.372140] (-) TimerEvent: {}
+[27.395856] (astra_camera_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp.o\x1b[0m\n'}
+[27.472363] (-) TimerEvent: {}
+[27.573356] (-) TimerEvent: {}
+[27.627715] (astra_camera_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_int32__type_support.cpp.o\x1b[0m\n'}
+[27.674950] (-) TimerEvent: {}
+[27.776127] (-) TimerEvent: {}
+[27.877002] (-) TimerEvent: {}
+[27.979295] (-) TimerEvent: {}
+[28.080466] (-) TimerEvent: {}
+[28.181666] (-) TimerEvent: {}
+[28.282822] (-) TimerEvent: {}
+[28.384062] (-) TimerEvent: {}
+[28.485232] (-) TimerEvent: {}
+[28.567691] (astra_camera_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_info__type_support.cpp.o\x1b[0m\n'}
+[28.586425] (-) TimerEvent: {}
+[28.688659] (-) TimerEvent: {}
+[28.789870] (-) TimerEvent: {}
+[28.891759] (-) TimerEvent: {}
+[28.992971] (-) TimerEvent: {}
+[29.094046] (-) TimerEvent: {}
+[29.195769] (-) TimerEvent: {}
+[29.297043] (-) TimerEvent: {}
+[29.398295] (-) TimerEvent: {}
+[29.499564] (-) TimerEvent: {}
+[29.600777] (-) TimerEvent: {}
+[29.701985] (-) TimerEvent: {}
+[29.723297] (astra_camera_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_string__type_support.cpp.o\x1b[0m\n'}
+[29.794346] (astra_camera_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o\x1b[0m\n'}
+[29.802236] (-) TimerEvent: {}
+[29.903694] (-) TimerEvent: {}
+[30.005154] (-) TimerEvent: {}
+[30.106315] (-) TimerEvent: {}
+[30.207252] (-) TimerEvent: {}
+[30.308257] (-) TimerEvent: {}
+[30.383970] (astra_camera_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp.o\x1b[0m\n'}
+[30.408591] (-) TimerEvent: {}
+[30.509870] (-) TimerEvent: {}
+[30.610975] (-) TimerEvent: {}
+[30.712043] (-) TimerEvent: {}
+[30.813241] (-) TimerEvent: {}
+[30.914642] (-) TimerEvent: {}
+[31.015849] (-) TimerEvent: {}
+[31.117300] (-) TimerEvent: {}
+[31.218706] (-) TimerEvent: {}
+[31.320051] (-) TimerEvent: {}
+[31.421210] (-) TimerEvent: {}
+[31.522400] (-) TimerEvent: {}
+[31.623687] (-) TimerEvent: {}
+[31.690290] (astra_camera_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/set_int32__type_support.cpp.o\x1b[0m\n'}
+[31.723961] (-) TimerEvent: {}
+[31.825257] (-) TimerEvent: {}
+[31.871653] (astra_camera_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_params__type_support.cpp.o\x1b[0m\n'}
+[31.925572] (-) TimerEvent: {}
+[32.026672] (-) TimerEvent: {}
+[32.127671] (-) TimerEvent: {}
+[32.228656] (-) TimerEvent: {}
+[32.329926] (-) TimerEvent: {}
+[32.383490] (astra_camera_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/metadata__type_support_c.cpp.o\x1b[0m\n'}
+[32.430588] (-) TimerEvent: {}
+[32.531766] (-) TimerEvent: {}
+[32.632692] (-) TimerEvent: {}
+[32.733747] (-) TimerEvent: {}
+[32.834807] (-) TimerEvent: {}
+[32.935817] (-) TimerEvent: {}
+[33.036965] (-) TimerEvent: {}
+[33.138058] (-) TimerEvent: {}
+[33.239436] (-) TimerEvent: {}
+[33.340677] (-) TimerEvent: {}
+[33.441845] (-) TimerEvent: {}
+[33.543173] (-) TimerEvent: {}
+[33.643896] (astra_camera_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_int32__type_support.cpp.o\x1b[0m\n'}
+[33.644924] (-) TimerEvent: {}
+[33.694189] (astra_camera_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[33.745177] (-) TimerEvent: {}
+[33.846369] (-) TimerEvent: {}
+[33.948041] (-) TimerEvent: {}
+[33.951977] (astra_camera_msgs) StdoutLine: {'line': b'[ 41%] Built target astra_camera_msgs__rosidl_typesupport_cpp\n'}
+[34.002623] (astra_camera_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_int32__type_support.cpp.o\x1b[0m\n'}
+[34.048366] (-) TimerEvent: {}
+[34.149530] (-) TimerEvent: {}
+[34.250916] (-) TimerEvent: {}
+[34.352043] (-) TimerEvent: {}
+[34.453205] (-) TimerEvent: {}
+[34.554480] (-) TimerEvent: {}
+[34.655497] (-) TimerEvent: {}
+[34.756651] (-) TimerEvent: {}
+[34.857791] (-) TimerEvent: {}
+[34.959227] (-) TimerEvent: {}
+[35.060712] (-) TimerEvent: {}
+[35.161922] (-) TimerEvent: {}
+[35.191037] (astra_camera_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_device_info__type_support_c.cpp.o\x1b[0m\n'}
+[35.262481] (-) TimerEvent: {}
+[35.288777] (astra_camera_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_string__type_support.cpp.o\x1b[0m\n'}
+[35.362704] (-) TimerEvent: {}
+[35.463804] (-) TimerEvent: {}
+[35.564858] (-) TimerEvent: {}
+[35.665980] (-) TimerEvent: {}
+[35.767104] (-) TimerEvent: {}
+[35.868324] (-) TimerEvent: {}
+[35.969864] (-) TimerEvent: {}
+[36.071443] (-) TimerEvent: {}
+[36.173005] (-) TimerEvent: {}
+[36.274390] (-) TimerEvent: {}
+[36.376125] (-) TimerEvent: {}
+[36.477331] (-) TimerEvent: {}
+[36.578674] (-) TimerEvent: {}
+[36.611637] (astra_camera_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_string__type_support.cpp.o\x1b[0m\n'}
+[36.678942] (-) TimerEvent: {}
+[36.780090] (-) TimerEvent: {}
+[36.881114] (-) TimerEvent: {}
+[36.982246] (-) TimerEvent: {}
+[37.083448] (-) TimerEvent: {}
+[37.184666] (-) TimerEvent: {}
+[37.285804] (-) TimerEvent: {}
+[37.387217] (-) TimerEvent: {}
+[37.474031] (astra_camera_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/set_int32__type_support.cpp.o\x1b[0m\n'}
+[37.487458] (-) TimerEvent: {}
+[37.527393] (astra_camera_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:334: CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_string__type_support.cpp.o] Interrupt\n'}
+[37.533173] (astra_camera_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:348: CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/set_int32__type_support.cpp.o] Interrupt\n'}
+[37.536521] (astra_camera_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:334: CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_string__type_support.cpp.o] Interrupt\n'}
+[37.538334] (astra_camera_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:278: CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_device_info__type_support_c.cpp.o] Interrupt\n'}
+[37.539549] (astra_camera_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt\n'}
+[37.540481] (astra_camera_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt\n'}
+[37.541671] (astra_camera_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt\n'}
+[37.543675] (astra_camera_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[37.551454] (astra_camera_msgs) CommandEnded: {'returncode': -2}
+[37.587683] (-) TimerEvent: {}
+[37.688414] (-) TimerEvent: {}
+[37.789054] (-) TimerEvent: {}
+[37.889726] (-) TimerEvent: {}
+[37.990526] (-) TimerEvent: {}
+[38.091209] (-) TimerEvent: {}
+[38.191843] (-) TimerEvent: {}
+[38.292457] (-) TimerEvent: {}
+[38.393094] (-) TimerEvent: {}
+[38.494346] (-) TimerEvent: {}
+[38.595403] (-) TimerEvent: {}
+[38.696487] (-) TimerEvent: {}
+[38.797493] (-) TimerEvent: {}
+[38.827095] (astra_camera_msgs) JobEnded: {'identifier': 'astra_camera_msgs', 'rc': 'SIGINT'}
+[38.838988] (astra_camera) JobSkipped: {'identifier': 'astra_camera'}
+[38.839338] (-) EventReactorShutdown: {}

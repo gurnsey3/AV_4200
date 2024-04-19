@@ -1,0 +1,6 @@
+Invoking command in '/home/tractor/ws/build/libuvc': /usr/bin/cmake /home/tractor/ws/src/libuvc -DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/libuvc
+Invoked command in '/home/tractor/ws/build/libuvc' returned '0': /usr/bin/cmake /home/tractor/ws/src/libuvc -DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/libuvc
+Invoking command in '/home/tractor/ws/build/libuvc': /usr/bin/cmake --build /home/tractor/ws/build/libuvc -- -j4 -l4
+Invoked command in '/home/tractor/ws/build/libuvc' returned '0': /usr/bin/cmake --build /home/tractor/ws/build/libuvc -- -j4 -l4
+Invoking command in '/home/tractor/ws/build/libuvc': /usr/bin/cmake --install /home/tractor/ws/build/libuvc
+Invoked command in '/home/tractor/ws/build/libuvc' returned '0': /usr/bin/cmake --install /home/tractor/ws/build/libuvc

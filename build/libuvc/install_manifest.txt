@@ -1,0 +1,15 @@
+/home/tractor/ws/install/libuvc/lib/libuvc.so.0.0.7
+/home/tractor/ws/install/libuvc/lib/libuvc.so.0
+/home/tractor/ws/install/libuvc/lib/libuvc.so
+/home/tractor/ws/install/libuvc/include/libuvc/libuvc.h
+/home/tractor/ws/install/libuvc/include/libuvc/libuvc_config.h
+/home/tractor/ws/install/libuvc/lib/libuvc.a
+/home/tractor/ws/install/libuvc/include/libuvc/libuvc.h
+/home/tractor/ws/install/libuvc/include/libuvc/libuvc_config.h
+/home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+/home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+/home/tractor/ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+/home/tractor/ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+/home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+/home/tractor/ws/install/libuvc/lib/pkgconfig/libuvc.pc
+/home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake

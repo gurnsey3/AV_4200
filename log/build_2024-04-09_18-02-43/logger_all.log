@@ -1,0 +1,271 @@
+[0.547s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--event-handlers', 'console_direct+', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.548s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=['console_direct+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbc3780a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbc4acca0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbc4acca0>>)
+[1.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.363s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tractor/ws'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extensions ['ignore', 'ignore_ament_install']
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extension 'ignore'
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extension 'ignore_ament_install'
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extensions ['colcon_pkg']
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extension 'colcon_pkg'
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extensions ['colcon_meta']
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extension 'colcon_meta'
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extensions ['ros']
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extension 'ros'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extensions ['cmake', 'python']
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extension 'cmake'
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extension 'python'
+[1.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/libuvc' with type 'cmake' and name 'libuvc'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore_ament_install'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_pkg']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_pkg'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_meta']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_meta'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ros']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ros'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['cmake', 'python']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'cmake'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['python_setup_py']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python_setup_py'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore_ament_install'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_pkg']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_pkg'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_meta']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_meta'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ros']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ros'
+[1.475s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera' with type 'ros.ament_cmake' and name 'astra_camera'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore_ament_install'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_pkg']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_pkg'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_meta']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_meta'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ros']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ros'
+[1.481s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera_msgs' with type 'ros.ament_cmake' and name 'astra_camera_msgs'
+[1.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.605s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.605s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.620s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[1.664s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.835s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.836s] DEBUG:colcon.colcon_core.verb:Building package 'astra_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tractor/ws/build/astra_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tractor/ws/install/astra_camera_msgs', 'merge_install': False, 'path': '/home/tractor/ws/src/ros2_astra_camera/astra_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_target' from command line to 'None'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_clean_cache' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_clean_first' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_force_configure' from command line to 'False'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'ament_cmake_args' from command line to 'None'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'catkin_cmake_args' from command line to 'None'
+[1.838s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.839s] DEBUG:colcon.colcon_core.verb:Building package 'libuvc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tractor/ws/build/libuvc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tractor/ws/install/libuvc', 'merge_install': False, 'path': '/home/tractor/ws/src/libuvc', 'symlink_install': False, 'test_result_base': None}
+[1.841s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.841s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target' from command line to 'None'
+[1.841s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.841s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[1.841s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_first' from command line to 'False'
+[1.841s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_force_configure' from command line to 'False'
+[1.841s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'ament_cmake_args' from command line to 'None'
+[1.841s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[1.841s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.842s] DEBUG:colcon.colcon_core.verb:Building package 'astra_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tractor/ws/build/astra_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tractor/ws/install/astra_camera', 'merge_install': False, 'path': '/home/tractor/ws/src/ros2_astra_camera/astra_camera', 'symlink_install': False, 'test_result_base': None}
+[1.842s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.846s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.846s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tractor/ws/src/ros2_astra_camera/astra_camera_msgs' with build type 'ament_cmake'
+[1.847s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tractor/ws/src/ros2_astra_camera/astra_camera_msgs'
+[1.857s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.858s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.858s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.874s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tractor/ws/src/libuvc'
+[1.876s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tractor/ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tractor/ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/astra_camera_msgs
+[1.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tractor/ws/build/libuvc': /usr/bin/cmake /home/tractor/ws/src/libuvc -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/libuvc
+[4.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tractor/ws/build/libuvc' returned '0': /usr/bin/cmake /home/tractor/ws/src/libuvc -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/libuvc
+[4.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tractor/ws/build/libuvc': /usr/bin/cmake --build /home/tractor/ws/build/libuvc -- -j4 -l4
+[12.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tractor/ws/build/libuvc' returned '0': /usr/bin/cmake --build /home/tractor/ws/build/libuvc -- -j4 -l4
+[12.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tractor/ws/build/libuvc': /usr/bin/cmake --install /home/tractor/ws/build/libuvc
+[12.503s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libuvc)
+[12.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tractor/ws/build/libuvc' returned '0': /usr/bin/cmake --install /home/tractor/ws/build/libuvc
+[12.521s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/libuvc' for CMake module files
+[12.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('libuvc', 'cmake_module_path')
+[12.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/libuvc/share/libuvc/hook/cmake_module_path.ps1'
+[12.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tractor/ws/install/libuvc/share/libuvc/hook/cmake_module_path.dsv'
+[12.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/libuvc/share/libuvc/hook/cmake_module_path.sh'
+[12.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('libuvc', 'cmake_module_path1')
+[12.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/libuvc/share/libuvc/hook/cmake_module_path1.ps1'
+[12.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tractor/ws/install/libuvc/share/libuvc/hook/cmake_module_path1.dsv'
+[12.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/libuvc/share/libuvc/hook/cmake_module_path1.sh'
+[12.543s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/libuvc' for CMake config files
+[12.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('libuvc', 'cmake_prefix_path')
+[12.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/libuvc/share/libuvc/hook/cmake_prefix_path.ps1'
+[12.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tractor/ws/install/libuvc/share/libuvc/hook/cmake_prefix_path.dsv'
+[12.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/libuvc/share/libuvc/hook/cmake_prefix_path.sh'
+[12.556s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/libuvc/lib'
+[12.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('libuvc', 'ld_library_path_lib')
+[12.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/libuvc/share/libuvc/hook/ld_library_path_lib.ps1'
+[12.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tractor/ws/install/libuvc/share/libuvc/hook/ld_library_path_lib.dsv'
+[12.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/libuvc/share/libuvc/hook/ld_library_path_lib.sh'
+[12.570s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/libuvc/bin'
+[12.570s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/libuvc/lib/pkgconfig/libuvc.pc'
+[12.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('libuvc', 'pkg_config')
+[12.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/libuvc/share/libuvc/hook/pkg_config.ps1'
+[12.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tractor/ws/install/libuvc/share/libuvc/hook/pkg_config.dsv'
+[12.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/libuvc/share/libuvc/hook/pkg_config.sh'
+[12.581s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/libuvc/lib/python3.10/site-packages'
+[12.582s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/libuvc/bin'
+[12.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/libuvc/share/libuvc/package.ps1'
+[12.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tractor/ws/install/libuvc/share/libuvc/package.dsv'
+[12.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/libuvc/share/libuvc/package.sh'
+[12.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/libuvc/share/libuvc/package.bash'
+[12.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/libuvc/share/libuvc/package.zsh'
+[12.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tractor/ws/install/libuvc/share/colcon-core/packages/libuvc)
+[16.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tractor/ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tractor/ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/astra_camera_msgs
+[16.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tractor/ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tractor/ws/build/astra_camera_msgs -- -j4 -l4
+[83.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tractor/ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tractor/ws/build/astra_camera_msgs -- -j4 -l4
+[84.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tractor/ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tractor/ws/build/astra_camera_msgs
+[85.395s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera_msgs)
+[85.396s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera_msgs' for CMake module files
+[85.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tractor/ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tractor/ws/build/astra_camera_msgs
+[85.403s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera_msgs' for CMake config files
+[85.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'cmake_prefix_path')
+[85.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.ps1'
+[85.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.dsv'
+[85.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.sh'
+[85.413s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera_msgs/lib'
+[85.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'ld_library_path_lib')
+[85.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.ps1'
+[85.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.dsv'
+[85.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.sh'
+[85.422s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera_msgs/bin'
+[85.422s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera_msgs/lib/pkgconfig/astra_camera_msgs.pc'
+[85.424s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera_msgs/lib/python3.10/site-packages'
+[85.425s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera_msgs/bin'
+[85.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/package.ps1'
+[85.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv'
+[85.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/package.sh'
+[85.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/package.bash'
+[85.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/package.zsh'
+[85.438s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tractor/ws/install/astra_camera_msgs/share/colcon-core/packages/astra_camera_msgs)
+[86.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera_msgs)
+[86.865s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera_msgs' for CMake module files
+[86.871s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera_msgs' for CMake config files
+[86.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'cmake_prefix_path')
+[86.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.ps1'
+[86.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.dsv'
+[86.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.sh'
+[86.885s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera_msgs/lib'
+[86.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'ld_library_path_lib')
+[86.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.ps1'
+[86.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.dsv'
+[86.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.sh'
+[86.895s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera_msgs/bin'
+[86.896s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera_msgs/lib/pkgconfig/astra_camera_msgs.pc'
+[86.896s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera_msgs/lib/python3.10/site-packages'
+[86.898s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera_msgs/bin'
+[86.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/package.ps1'
+[86.902s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv'
+[86.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/package.sh'
+[86.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/package.bash'
+[86.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/package.zsh'
+[86.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tractor/ws/install/astra_camera_msgs/share/colcon-core/packages/astra_camera_msgs)
+[86.914s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tractor/ws/src/ros2_astra_camera/astra_camera' with build type 'ament_cmake'
+[86.915s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tractor/ws/src/ros2_astra_camera/astra_camera'
+[86.917s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[86.918s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[86.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tractor/ws/build/astra_camera': AMENT_PREFIX_PATH=/home/tractor/ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tractor/ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/tractor/ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tractor/ws/src/ros2_astra_camera/astra_camera -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/astra_camera
+[103.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tractor/ws/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/tractor/ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tractor/ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/tractor/ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tractor/ws/src/ros2_astra_camera/astra_camera -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/astra_camera
+[103.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tractor/ws/build/astra_camera': AMENT_PREFIX_PATH=/home/tractor/ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tractor/ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/tractor/ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tractor/ws/build/astra_camera -- -j4 -l4
+[278.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tractor/ws/build/astra_camera' returned '2': AMENT_PREFIX_PATH=/home/tractor/ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tractor/ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/tractor/ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tractor/ws/build/astra_camera -- -j4 -l4
+[279.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera)
+[279.591s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera' for CMake module files
+[279.594s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera' for CMake config files
+[279.597s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera/bin'
+[279.598s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera/lib/pkgconfig/astra_camera.pc'
+[279.600s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera/lib/python3.10/site-packages'
+[279.601s] Level 1:colcon.colcon_core.environment:checking '/home/tractor/ws/install/astra_camera/bin'
+[279.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/astra_camera/share/astra_camera/package.ps1'
+[279.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tractor/ws/install/astra_camera/share/astra_camera/package.dsv'
+[279.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/astra_camera/share/astra_camera/package.sh'
+[279.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/astra_camera/share/astra_camera/package.bash'
+[279.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/tractor/ws/install/astra_camera/share/astra_camera/package.zsh'
+[279.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tractor/ws/install/astra_camera/share/colcon-core/packages/astra_camera)
+[279.626s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[279.628s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[279.629s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[279.630s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[279.690s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[279.690s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[279.691s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[279.821s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[279.826s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tractor/ws/install/local_setup.ps1'
+[279.834s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tractor/ws/install/_local_setup_util_ps1.py'
+[279.840s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tractor/ws/install/setup.ps1'
+[279.846s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tractor/ws/install/local_setup.sh'
+[279.850s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tractor/ws/install/_local_setup_util_sh.py'
+[279.854s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tractor/ws/install/setup.sh'
+[279.859s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tractor/ws/install/local_setup.bash'
+[279.862s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tractor/ws/install/setup.bash'
+[279.868s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tractor/ws/install/local_setup.zsh'
+[279.871s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tractor/ws/install/setup.zsh'

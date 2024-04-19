@@ -1,0 +1,80 @@
+[0.068s] Invoking command in '/home/tractor/ws/build/libuvc': /usr/bin/cmake /home/tractor/ws/src/libuvc -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/libuvc
+[0.362s] -- The C compiler identification is GNU 11.4.0
+[0.394s] -- Detecting C compiler ABI info
+[0.745s] -- Detecting C compiler ABI info - done
+[0.772s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.774s] -- Detecting C compile features
+[0.776s] -- Detecting C compile features - done
+[0.780s] -- No target type selected, default to both shared and static library
+[0.797s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.800s] -- Checking for module 'libusb-1.0'
+[0.862s] --   Found libusb-1.0, version 1.0.25
+[1.045s] -- libusb-1.0 found using pkgconfig
+[1.245s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[1.246s] -- Found JPEG library using standard module
+[1.249s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.250s]   The package name passed to `find_package_handle_standard_args` (JPEG) does
+[1.251s]   not match the name of the calling package (JpegPkg).  This can lead to
+[1.252s]   problems in calling code that expects `find_package` result variables
+[1.252s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.254s] Call Stack (most recent call first):
+[1.255s]   cmake/FindJpegPkg.cmake:58 (find_package_handle_standard_args)
+[1.256s]   CMakeLists.txt:45 (find_package)
+[1.256s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.257s] [0m
+[1.258s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so  
+[1.259s] -- Building libuvc with JPEG support.
+[1.259s] -- Looking for pthread.h
+[1.659s] -- Looking for pthread.h - found
+[1.661s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.050s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.054s] -- Found Threads: TRUE  
+[2.076s] -- Configuring done
+[2.120s] -- Generating done
+[2.127s] -- Build files have been written to: /home/tractor/ws/build/libuvc
+[2.151s] Invoked command in '/home/tractor/ws/build/libuvc' returned '0': /usr/bin/cmake /home/tractor/ws/src/libuvc -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/tractor/ws/install/libuvc
+[2.153s] Invoking command in '/home/tractor/ws/build/libuvc': /usr/bin/cmake --build /home/tractor/ws/build/libuvc -- -j4 -l4
+[2.423s] [  4%] [32mBuilding C object CMakeFiles/uvc.dir/src/device.c.o[0m
+[2.425s] [  9%] [32mBuilding C object CMakeFiles/uvc.dir/src/ctrl-gen.c.o[0m
+[2.427s] [ 13%] [32mBuilding C object CMakeFiles/uvc.dir/src/ctrl.c.o[0m
+[2.498s] [ 18%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl.c.o[0m
+[2.952s] [ 22%] [32mBuilding C object CMakeFiles/uvc.dir/src/diag.c.o[0m
+[3.040s] [ 27%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl-gen.c.o[0m
+[3.996s] [ 31%] [32mBuilding C object CMakeFiles/uvc.dir/src/frame.c.o[0m
+[4.870s] [ 36%] [32mBuilding C object CMakeFiles/uvc.dir/src/init.c.o[0m
+[5.285s] [ 40%] [32mBuilding C object CMakeFiles/uvc.dir/src/stream.c.o[0m
+[5.349s] [ 45%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/device.c.o[0m
+[5.398s] [ 50%] [32mBuilding C object CMakeFiles/uvc.dir/src/misc.c.o[0m
+[5.777s] [ 54%] [32mBuilding C object CMakeFiles/uvc.dir/src/frame-mjpeg.c.o[0m
+[6.580s] [ 59%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/diag.c.o[0m
+[6.761s] [ 63%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/frame.c.o[0m
+[6.996s] [ 68%] [32m[1mLinking C shared library libuvc.so[0m
+[7.489s] [ 68%] Built target uvc
+[7.641s] [ 72%] [32mBuilding C object CMakeFiles/example.dir/src/example.c.o[0m
+[7.697s] [ 77%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/init.c.o[0m
+[8.093s] [ 81%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/stream.c.o[0m
+[8.216s] [ 86%] [32m[1mLinking C executable example[0m
+[8.263s] [ 90%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/misc.c.o[0m
+[8.548s] [ 95%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/frame-mjpeg.c.o[0m
+[8.658s] [ 95%] Built target example
+[10.048s] [100%] [32m[1mLinking C static library libuvc.a[0m
+[10.216s] [100%] Built target uvc_static
+[10.273s] Invoked command in '/home/tractor/ws/build/libuvc' returned '0': /usr/bin/cmake --build /home/tractor/ws/build/libuvc -- -j4 -l4
+[10.568s] Invoking command in '/home/tractor/ws/build/libuvc': /usr/bin/cmake --install /home/tractor/ws/build/libuvc
+[10.597s] -- Install configuration: "Release"
+[10.599s] -- Installing: /home/tractor/ws/install/libuvc/lib/libuvc.so.0.0.7
+[10.601s] -- Installing: /home/tractor/ws/install/libuvc/lib/libuvc.so.0
+[10.602s] -- Installing: /home/tractor/ws/install/libuvc/lib/libuvc.so
+[10.603s] -- Installing: /home/tractor/ws/install/libuvc/include/libuvc/libuvc.h
+[10.606s] -- Installing: /home/tractor/ws/install/libuvc/include/libuvc/libuvc_config.h
+[10.614s] -- Installing: /home/tractor/ws/install/libuvc/lib/libuvc.a
+[10.614s] -- Up-to-date: /home/tractor/ws/install/libuvc/include/libuvc/libuvc.h
+[10.615s] -- Up-to-date: /home/tractor/ws/install/libuvc/include/libuvc/libuvc_config.h
+[10.616s] -- Installing: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+[10.617s] -- Installing: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+[10.617s] -- Installing: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+[10.618s] -- Installing: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+[10.618s] -- Installing: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+[10.619s] -- Installing: /home/tractor/ws/install/libuvc/lib/pkgconfig/libuvc.pc
+[10.620s] -- Installing: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake
+[10.629s] Invoked command in '/home/tractor/ws/build/libuvc' returned '0': /usr/bin/cmake --install /home/tractor/ws/build/libuvc

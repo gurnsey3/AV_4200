@@ -1,0 +1,8 @@
+gmake[2]: *** [CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:334: CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_string__type_support.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:348: CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/set_int32__type_support.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:334: CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_string__type_support.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:278: CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_device_info__type_support_c.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

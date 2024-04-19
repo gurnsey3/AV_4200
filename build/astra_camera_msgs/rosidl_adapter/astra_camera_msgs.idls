@@ -1,0 +1,9 @@
+/home/tractor/ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/DeviceInfo.idl
+/home/tractor/ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/Extrinsics.idl
+/home/tractor/ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/Metadata.idl
+/home/tractor/ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetDeviceInfo.idl
+/home/tractor/ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetCameraInfo.idl
+/home/tractor/ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetCameraParams.idl
+/home/tractor/ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetInt32.idl
+/home/tractor/ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetString.idl
+/home/tractor/ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/SetInt32.idl
