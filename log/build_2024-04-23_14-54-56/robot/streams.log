@@ -1,0 +1,36 @@
+[3.524s] Invoking command in '/home/tractor/ws/src/robot': PYTHONPATH=/home/tractor/ws/build/robot/prefix_override:/home/tractor/ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/tractor/ws/build/robot/build install --record /home/tractor/ws/build/robot/install.log --single-version-externally-managed install_data
+[4.580s] running egg_info
+[4.646s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[4.648s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[4.649s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[4.651s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[4.652s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[4.789s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[4.791s] adding license file 'LICENSE'
+[4.793s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[4.794s] running build
+[4.795s] running build_py
+[4.795s] copying robot/startRobot.py -> /home/tractor/ws/build/robot/build/lib/robot
+[4.796s] copying robot/Locomotion.py -> /home/tractor/ws/build/robot/build/lib/robot
+[4.798s] copying robot/__init__.py -> /home/tractor/ws/build/robot/build/lib/robot
+[4.799s] running install
+[4.821s] running install_lib
+[4.887s] creating /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot
+[4.888s] copying /home/tractor/ws/build/robot/build/lib/robot/startRobot.py -> /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot
+[4.888s] copying /home/tractor/ws/build/robot/build/lib/robot/Locomotion.py -> /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot
+[4.889s] copying /home/tractor/ws/build/robot/build/lib/robot/__init__.py -> /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot
+[4.892s] byte-compiling /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot/startRobot.py to startRobot.cpython-310.pyc
+[4.894s] byte-compiling /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot/Locomotion.py to Locomotion.cpython-310.pyc
+[4.900s] byte-compiling /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot/__init__.py to __init__.cpython-310.pyc
+[4.901s] running install_data
+[4.901s] creating /home/tractor/ws/install/robot/share/ament_index
+[4.902s] creating /home/tractor/ws/install/robot/share/ament_index/resource_index
+[4.902s] creating /home/tractor/ws/install/robot/share/ament_index/resource_index/packages
+[4.903s] copying resource/robot -> /home/tractor/ws/install/robot/share/ament_index/resource_index/packages
+[4.904s] copying package.xml -> /home/tractor/ws/install/robot/share/robot
+[4.904s] running install_egg_info
+[4.975s] Copying ../../build/robot/robot.egg-info to /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[4.980s] running install_scripts
+[5.632s] Installing Locomotion script to /home/tractor/ws/install/robot/lib/robot
+[5.634s] writing list of installed files to '/home/tractor/ws/build/robot/install.log'
+[5.778s] Invoked command in '/home/tractor/ws/src/robot' returned '0': PYTHONPATH=/home/tractor/ws/build/robot/prefix_override:/home/tractor/ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/tractor/ws/build/robot/build install --record /home/tractor/ws/build/robot/install.log --single-version-externally-managed install_data
