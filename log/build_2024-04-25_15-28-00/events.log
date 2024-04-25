@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.001666] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.002235] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.002325] (-) JobUnselected: {'identifier': 'libuvc'}
+[0.002411] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.002493] (robot) JobStarted: {'identifier': 'robot'}
+[0.098937] (-) TimerEvent: {}
+[0.199631] (-) TimerEvent: {}
+[0.300497] (-) TimerEvent: {}
+[0.401127] (-) TimerEvent: {}
+[0.501808] (-) TimerEvent: {}
+[0.602464] (-) TimerEvent: {}
+[0.703109] (-) TimerEvent: {}
+[0.803744] (-) TimerEvent: {}
+[0.904364] (-) TimerEvent: {}
+[1.005156] (-) TimerEvent: {}
+[1.106111] (-) TimerEvent: {}
+[1.207500] (-) TimerEvent: {}
+[1.308158] (-) TimerEvent: {}
+[1.408780] (-) TimerEvent: {}
+[1.509467] (-) TimerEvent: {}
+[1.610150] (-) TimerEvent: {}
+[1.710757] (-) TimerEvent: {}
+[1.811395] (-) TimerEvent: {}
+[1.912033] (-) TimerEvent: {}
+[2.012650] (-) TimerEvent: {}
+[2.113285] (-) TimerEvent: {}
+[2.213929] (-) TimerEvent: {}
+[2.314604] (-) TimerEvent: {}
+[2.415197] (-) TimerEvent: {}
+[2.515845] (-) TimerEvent: {}
+[2.616477] (-) TimerEvent: {}
+[2.717267] (-) TimerEvent: {}
+[2.817924] (-) TimerEvent: {}
+[2.918622] (-) TimerEvent: {}
+[3.019292] (-) TimerEvent: {}
+[3.119985] (-) TimerEvent: {}
+[3.220709] (-) TimerEvent: {}
+[3.321367] (-) TimerEvent: {}
+[3.420374] (robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/tractor/ws/build/robot/build', 'install', '--record', '/home/tractor/ws/build/robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tractor/ws/src/robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tractor', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tractor/ws/install/libuvc/lib:/home/tractor/ws/install/astra_camera/lib:/home/tractor/ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tractor', 'OLDPWD': '/home/tractor/ws/src/robot', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1866', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/tractor/ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'tractor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/tractor/ws/install/libuvc/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tractor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tractor-desktop:@/tmp/.ICE-unix/1839,unix/tractor-desktop:/tmp/.ICE-unix/1839', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/615d5cf3_5050_498d_a5f5_515d95f1a155', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tractor/ws/install/robot:/home/tractor/ws/install/basic_mobile_robot:/home/tractor/ws/install/astra_camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/home/tractor/ws/install/libuvc/lib/cmake/libuvc', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tractor/ws/build/robot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tractor/ws/build/robot/prefix_override:/home/tractor/ws/install/robot/lib/python3.10/site-packages:/home/tractor/ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tractor/ws/install/libuvc:/home/tractor/ws/install/basic_mobile_robot:/home/tractor/ws/install/astra_camera:/home/tractor/ws/install/astra_camera_msgs'}, 'shell': False}
+[3.424900] (-) TimerEvent: {}
+[3.525555] (-) TimerEvent: {}
+[3.626180] (-) TimerEvent: {}
+[3.727020] (-) TimerEvent: {}
+[3.827677] (-) TimerEvent: {}
+[3.928336] (-) TimerEvent: {}
+[4.028966] (-) TimerEvent: {}
+[4.129595] (-) TimerEvent: {}
+[4.230265] (-) TimerEvent: {}
+[4.330892] (-) TimerEvent: {}
+[4.431497] (-) TimerEvent: {}
+[4.523329] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[4.531665] (-) TimerEvent: {}
+[4.593769] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[4.595973] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[4.597155] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[4.598370] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[4.599304] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[4.631853] (-) TimerEvent: {}
+[4.732465] (-) TimerEvent: {}
+[4.741199] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[4.742789] (robot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.745796] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[4.746584] (robot) StdoutLine: {'line': b'running build\n'}
+[4.747051] (robot) StdoutLine: {'line': b'running build_py\n'}
+[4.747787] (robot) StdoutLine: {'line': b'copying robot/startRobot.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[4.748923] (robot) StdoutLine: {'line': b'copying robot/stop_sign_detection_screen_shots.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[4.749804] (robot) StdoutLine: {'line': b'copying robot/Locomotion.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[4.750936] (robot) StdoutLine: {'line': b'copying robot/__init__.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[4.752844] (robot) StdoutLine: {'line': b'running install\n'}
+[4.775404] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[4.832622] (-) TimerEvent: {}
+[4.844805] (robot) StdoutLine: {'line': b'copying /home/tractor/ws/build/robot/build/lib/robot/stop_sign_detection_screen_shots.py -> /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[4.845734] (robot) StdoutLine: {'line': b'copying /home/tractor/ws/build/robot/build/lib/robot/Locomotion.py -> /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[4.848696] (robot) StdoutLine: {'line': b'byte-compiling /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot/stop_sign_detection_screen_shots.py to stop_sign_detection_screen_shots.cpython-310.pyc\n'}
+[4.850932] (robot) StdoutLine: {'line': b'byte-compiling /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot/Locomotion.py to Locomotion.cpython-310.pyc\n'}
+[4.856287] (robot) StdoutLine: {'line': b'running install_data\n'}
+[4.856925] (robot) StdoutLine: {'line': b'copying resource/robot -> /home/tractor/ws/install/robot/share/ament_index/resource_index/packages\n'}
+[4.857804] (robot) StdoutLine: {'line': b'copying package.xml -> /home/tractor/ws/install/robot/share/robot\n'}
+[4.858662] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.932777] (-) TimerEvent: {}
+[4.933355] (robot) StdoutLine: {'line': b"removing '/home/tractor/ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.934835] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info\n'}
+[4.939892] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[5.032940] (-) TimerEvent: {}
+[5.133908] (-) TimerEvent: {}
+[5.234555] (-) TimerEvent: {}
+[5.335205] (-) TimerEvent: {}
+[5.435836] (-) TimerEvent: {}
+[5.536478] (-) TimerEvent: {}
+[5.606147] (robot) StdoutLine: {'line': b'Installing Locomotion script to /home/tractor/ws/install/robot/lib/robot\n'}
+[5.607313] (robot) StdoutLine: {'line': b'Installing stop script to /home/tractor/ws/install/robot/lib/robot\n'}
+[5.609062] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/tractor/ws/build/robot/install.log'\n"}
+[5.636897] (-) TimerEvent: {}
+[5.738139] (-) TimerEvent: {}
+[5.751563] (robot) CommandEnded: {'returncode': 0}
+[5.799320] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[5.801747] (-) EventReactorShutdown: {}

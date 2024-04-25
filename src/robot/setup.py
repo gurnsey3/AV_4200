@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'Locomotion = robot.Locomotion:main'
+            'Locomotion = robot.Locomotion:main',
+            'stop = robot.stop_sign_detection_screen_shots:main',
+            'vision = robot.vision:main'
         ],
     },
 )
