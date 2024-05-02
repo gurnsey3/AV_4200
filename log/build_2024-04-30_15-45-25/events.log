@@ -1,0 +1,382 @@
+[0.000000] (-) TimerEvent: {}
+[0.002057] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.002794] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.003203] (-) JobUnselected: {'identifier': 'libuvc'}
+[0.003715] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.003997] (robot) JobStarted: {'identifier': 'robot'}
+[0.086211] (-) TimerEvent: {}
+[0.188577] (-) TimerEvent: {}
+[0.291794] (-) TimerEvent: {}
+[0.394371] (-) TimerEvent: {}
+[0.496752] (-) TimerEvent: {}
+[0.599910] (-) TimerEvent: {}
+[0.703053] (-) TimerEvent: {}
+[0.805132] (-) TimerEvent: {}
+[0.906344] (-) TimerEvent: {}
+[1.014513] (-) TimerEvent: {}
+[1.118137] (-) TimerEvent: {}
+[1.220780] (-) TimerEvent: {}
+[1.323174] (-) TimerEvent: {}
+[1.427239] (-) TimerEvent: {}
+[1.528577] (-) TimerEvent: {}
+[1.634103] (-) TimerEvent: {}
+[1.737234] (-) TimerEvent: {}
+[1.844284] (-) TimerEvent: {}
+[1.947830] (-) TimerEvent: {}
+[2.052254] (-) TimerEvent: {}
+[2.158595] (-) TimerEvent: {}
+[2.263419] (-) TimerEvent: {}
+[2.365161] (-) TimerEvent: {}
+[2.468617] (-) TimerEvent: {}
+[2.570580] (-) TimerEvent: {}
+[2.672062] (-) TimerEvent: {}
+[2.774196] (-) TimerEvent: {}
+[2.876592] (-) TimerEvent: {}
+[2.978912] (-) TimerEvent: {}
+[3.081097] (-) TimerEvent: {}
+[3.186320] (-) TimerEvent: {}
+[3.291371] (-) TimerEvent: {}
+[3.395861] (-) TimerEvent: {}
+[3.501511] (-) TimerEvent: {}
+[3.604186] (-) TimerEvent: {}
+[3.707856] (-) TimerEvent: {}
+[3.808782] (-) TimerEvent: {}
+[3.909825] (-) TimerEvent: {}
+[4.012080] (-) TimerEvent: {}
+[4.117888] (-) TimerEvent: {}
+[4.222189] (-) TimerEvent: {}
+[4.324912] (-) TimerEvent: {}
+[4.428794] (-) TimerEvent: {}
+[4.531676] (-) TimerEvent: {}
+[4.633993] (-) TimerEvent: {}
+[4.741462] (-) TimerEvent: {}
+[4.847250] (-) TimerEvent: {}
+[4.953377] (-) TimerEvent: {}
+[5.066705] (-) TimerEvent: {}
+[5.174209] (-) TimerEvent: {}
+[5.276101] (-) TimerEvent: {}
+[5.382446] (-) TimerEvent: {}
+[5.488099] (-) TimerEvent: {}
+[5.594121] (-) TimerEvent: {}
+[5.722217] (-) TimerEvent: {}
+[5.826348] (-) TimerEvent: {}
+[5.935167] (-) TimerEvent: {}
+[6.039310] (-) TimerEvent: {}
+[6.145363] (-) TimerEvent: {}
+[6.250606] (-) TimerEvent: {}
+[6.355445] (-) TimerEvent: {}
+[6.460921] (-) TimerEvent: {}
+[6.564090] (-) TimerEvent: {}
+[6.665190] (-) TimerEvent: {}
+[6.767504] (-) TimerEvent: {}
+[6.869370] (-) TimerEvent: {}
+[6.971337] (-) TimerEvent: {}
+[7.074128] (-) TimerEvent: {}
+[7.176307] (-) TimerEvent: {}
+[7.278462] (-) TimerEvent: {}
+[7.381221] (-) TimerEvent: {}
+[7.482564] (-) TimerEvent: {}
+[7.586811] (-) TimerEvent: {}
+[7.689248] (-) TimerEvent: {}
+[7.790282] (-) TimerEvent: {}
+[7.892473] (-) TimerEvent: {}
+[7.994939] (-) TimerEvent: {}
+[8.098239] (-) TimerEvent: {}
+[8.200474] (-) TimerEvent: {}
+[8.301889] (-) TimerEvent: {}
+[8.403829] (-) TimerEvent: {}
+[8.507353] (-) TimerEvent: {}
+[8.610117] (-) TimerEvent: {}
+[8.713909] (-) TimerEvent: {}
+[8.816953] (-) TimerEvent: {}
+[8.920556] (-) TimerEvent: {}
+[9.024615] (-) TimerEvent: {}
+[9.128282] (-) TimerEvent: {}
+[9.231345] (-) TimerEvent: {}
+[9.333693] (-) TimerEvent: {}
+[9.438352] (-) TimerEvent: {}
+[9.540395] (-) TimerEvent: {}
+[9.644305] (-) TimerEvent: {}
+[9.747925] (-) TimerEvent: {}
+[9.851044] (-) TimerEvent: {}
+[9.953683] (-) TimerEvent: {}
+[10.056508] (-) TimerEvent: {}
+[10.159016] (-) TimerEvent: {}
+[10.262166] (-) TimerEvent: {}
+[10.365210] (-) TimerEvent: {}
+[10.467325] (-) TimerEvent: {}
+[10.572258] (-) TimerEvent: {}
+[10.676925] (-) TimerEvent: {}
+[10.778039] (-) TimerEvent: {}
+[10.880083] (-) TimerEvent: {}
+[10.984335] (-) TimerEvent: {}
+[11.089716] (-) TimerEvent: {}
+[11.193820] (-) TimerEvent: {}
+[11.297873] (-) TimerEvent: {}
+[11.402793] (-) TimerEvent: {}
+[11.506256] (-) TimerEvent: {}
+[11.607843] (-) TimerEvent: {}
+[11.709810] (-) TimerEvent: {}
+[11.812513] (-) TimerEvent: {}
+[11.916949] (-) TimerEvent: {}
+[12.021314] (-) TimerEvent: {}
+[12.124612] (-) TimerEvent: {}
+[12.230011] (-) TimerEvent: {}
+[12.331201] (-) TimerEvent: {}
+[12.437222] (-) TimerEvent: {}
+[12.542419] (-) TimerEvent: {}
+[12.643841] (-) TimerEvent: {}
+[12.746391] (-) TimerEvent: {}
+[12.851233] (-) TimerEvent: {}
+[12.954705] (-) TimerEvent: {}
+[13.058293] (-) TimerEvent: {}
+[13.160284] (-) TimerEvent: {}
+[13.266626] (-) TimerEvent: {}
+[13.370576] (-) TimerEvent: {}
+[13.475279] (-) TimerEvent: {}
+[13.582269] (-) TimerEvent: {}
+[13.689227] (-) TimerEvent: {}
+[13.791695] (-) TimerEvent: {}
+[13.893487] (-) TimerEvent: {}
+[13.996724] (-) TimerEvent: {}
+[14.099581] (-) TimerEvent: {}
+[14.202652] (-) TimerEvent: {}
+[14.305753] (-) TimerEvent: {}
+[14.411439] (-) TimerEvent: {}
+[14.514528] (-) TimerEvent: {}
+[14.616603] (-) TimerEvent: {}
+[14.718394] (-) TimerEvent: {}
+[14.824785] (-) TimerEvent: {}
+[14.926998] (-) TimerEvent: {}
+[15.030524] (-) TimerEvent: {}
+[15.134292] (-) TimerEvent: {}
+[15.239712] (-) TimerEvent: {}
+[15.344040] (-) TimerEvent: {}
+[15.448589] (-) TimerEvent: {}
+[15.550609] (-) TimerEvent: {}
+[15.664934] (-) TimerEvent: {}
+[15.768794] (-) TimerEvent: {}
+[15.871470] (-) TimerEvent: {}
+[15.974201] (-) TimerEvent: {}
+[16.076486] (-) TimerEvent: {}
+[16.179487] (-) TimerEvent: {}
+[16.283563] (-) TimerEvent: {}
+[16.387823] (-) TimerEvent: {}
+[16.491513] (-) TimerEvent: {}
+[16.597763] (-) TimerEvent: {}
+[16.700810] (-) TimerEvent: {}
+[16.805483] (-) TimerEvent: {}
+[16.909109] (-) TimerEvent: {}
+[17.014381] (-) TimerEvent: {}
+[17.116005] (-) TimerEvent: {}
+[17.218997] (-) TimerEvent: {}
+[17.329832] (-) TimerEvent: {}
+[17.431262] (-) TimerEvent: {}
+[17.532391] (-) TimerEvent: {}
+[17.637442] (-) TimerEvent: {}
+[17.740261] (-) TimerEvent: {}
+[17.843071] (-) TimerEvent: {}
+[17.947642] (-) TimerEvent: {}
+[18.049237] (-) TimerEvent: {}
+[18.154555] (-) TimerEvent: {}
+[18.257132] (-) TimerEvent: {}
+[18.362545] (-) TimerEvent: {}
+[18.465631] (-) TimerEvent: {}
+[18.568073] (-) TimerEvent: {}
+[18.670856] (-) TimerEvent: {}
+[18.777763] (-) TimerEvent: {}
+[18.886354] (-) TimerEvent: {}
+[18.991756] (-) TimerEvent: {}
+[19.096816] (-) TimerEvent: {}
+[19.203378] (-) TimerEvent: {}
+[19.306976] (-) TimerEvent: {}
+[19.411127] (-) TimerEvent: {}
+[19.514412] (-) TimerEvent: {}
+[19.621821] (-) TimerEvent: {}
+[19.727986] (-) TimerEvent: {}
+[19.832296] (-) TimerEvent: {}
+[19.936828] (-) TimerEvent: {}
+[20.040379] (-) TimerEvent: {}
+[20.138824] (robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/tractor/ws/build/robot/build', 'install', '--record', '/home/tractor/ws/build/robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tractor/ws/src/robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tractor', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tractor/ws/install/libuvc/lib:/home/tractor/ws/install/astra_camera/lib:/home/tractor/ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tractor', 'OLDPWD': '/home/tractor', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1984', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/tractor/ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'tractor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/tractor/ws/install/libuvc/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tractor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tractor-desktop:@/tmp/.ICE-unix/1956,unix/tractor-desktop:/tmp/.ICE-unix/1956', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/501eb01e_b90e_459e_826a_975489735ba0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tractor/ws/install/astra_camera_msgs:/home/tractor/ws/install/robot:/home/tractor/ws/install/basic_mobile_robot:/home/tractor/ws/install/astra_camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/home/tractor/ws/install/libuvc/lib/cmake/libuvc', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tractor/ws/build/robot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tractor/ws/build/robot/prefix_override:/home/tractor/ws/install/robot/lib/python3.10/site-packages:/home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/tractor/ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tractor/ws/install/libuvc:/home/tractor/ws/install/basic_mobile_robot:/home/tractor/ws/install/astra_camera:/home/tractor/ws/install/astra_camera_msgs'}, 'shell': False}
+[20.205375] (-) TimerEvent: {}
+[20.312937] (-) TimerEvent: {}
+[20.414906] (-) TimerEvent: {}
+[20.517432] (-) TimerEvent: {}
+[20.619305] (-) TimerEvent: {}
+[20.722537] (-) TimerEvent: {}
+[20.825080] (-) TimerEvent: {}
+[20.930899] (-) TimerEvent: {}
+[21.033829] (-) TimerEvent: {}
+[21.136826] (-) TimerEvent: {}
+[21.238709] (-) TimerEvent: {}
+[21.340915] (-) TimerEvent: {}
+[21.450092] (-) TimerEvent: {}
+[21.554738] (-) TimerEvent: {}
+[21.656727] (-) TimerEvent: {}
+[21.761378] (-) TimerEvent: {}
+[21.871511] (-) TimerEvent: {}
+[21.975192] (-) TimerEvent: {}
+[22.079823] (-) TimerEvent: {}
+[22.185340] (-) TimerEvent: {}
+[22.289848] (-) TimerEvent: {}
+[22.392035] (-) TimerEvent: {}
+[22.496619] (-) TimerEvent: {}
+[22.601147] (-) TimerEvent: {}
+[22.709300] (-) TimerEvent: {}
+[22.813097] (-) TimerEvent: {}
+[22.916110] (-) TimerEvent: {}
+[23.020106] (-) TimerEvent: {}
+[23.127085] (-) TimerEvent: {}
+[23.228938] (-) TimerEvent: {}
+[23.331351] (-) TimerEvent: {}
+[23.435972] (-) TimerEvent: {}
+[23.539876] (-) TimerEvent: {}
+[23.645897] (-) TimerEvent: {}
+[23.751700] (-) TimerEvent: {}
+[23.860734] (-) TimerEvent: {}
+[23.963222] (-) TimerEvent: {}
+[24.065771] (-) TimerEvent: {}
+[24.179651] (-) TimerEvent: {}
+[24.282329] (-) TimerEvent: {}
+[24.387162] (-) TimerEvent: {}
+[24.489185] (-) TimerEvent: {}
+[24.593685] (-) TimerEvent: {}
+[24.696088] (-) TimerEvent: {}
+[24.801860] (-) TimerEvent: {}
+[24.902631] (-) TimerEvent: {}
+[25.003720] (-) TimerEvent: {}
+[25.105163] (-) TimerEvent: {}
+[25.208152] (-) TimerEvent: {}
+[25.312546] (-) TimerEvent: {}
+[25.415029] (-) TimerEvent: {}
+[25.517771] (-) TimerEvent: {}
+[25.622447] (-) TimerEvent: {}
+[25.724812] (-) TimerEvent: {}
+[25.827436] (-) TimerEvent: {}
+[25.929315] (-) TimerEvent: {}
+[26.033414] (-) TimerEvent: {}
+[26.140064] (-) TimerEvent: {}
+[26.242333] (-) TimerEvent: {}
+[26.345391] (-) TimerEvent: {}
+[26.447792] (-) TimerEvent: {}
+[26.550400] (-) TimerEvent: {}
+[26.652312] (-) TimerEvent: {}
+[26.696290] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[26.752849] (-) TimerEvent: {}
+[26.854586] (-) TimerEvent: {}
+[26.957162] (-) TimerEvent: {}
+[27.060716] (-) TimerEvent: {}
+[27.163277] (-) TimerEvent: {}
+[27.212727] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[27.222716] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[27.228215] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[27.232544] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[27.247958] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[27.263400] (-) TimerEvent: {}
+[27.364842] (-) TimerEvent: {}
+[27.466467] (-) TimerEvent: {}
+[27.569404] (-) TimerEvent: {}
+[27.674563] (-) TimerEvent: {}
+[27.776588] (-) TimerEvent: {}
+[27.885163] (-) TimerEvent: {}
+[27.990221] (-) TimerEvent: {}
+[28.095465] (-) TimerEvent: {}
+[28.202311] (-) TimerEvent: {}
+[28.307537] (-) TimerEvent: {}
+[28.414086] (-) TimerEvent: {}
+[28.436941] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[28.442756] (robot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[28.458735] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[28.470502] (robot) StdoutLine: {'line': b'running build\n'}
+[28.475084] (robot) StdoutLine: {'line': b'running build_py\n'}
+[28.504682] (robot) StdoutLine: {'line': b'copying robot/vision.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[28.505701] (robot) StdoutLine: {'line': b'copying robot/startRobot.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[28.510762] (robot) StdoutLine: {'line': b'copying robot/stop_sign_detection_screen_shots.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[28.512185] (robot) StdoutLine: {'line': b'copying robot/Locomotion.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[28.517217] (robot) StdoutLine: {'line': b'copying robot/__init__.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[28.518325] (-) TimerEvent: {}
+[28.522629] (robot) StdoutLine: {'line': b'running install\n'}
+[28.579203] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[28.618551] (-) TimerEvent: {}
+[28.719447] (-) TimerEvent: {}
+[28.821440] (-) TimerEvent: {}
+[28.924144] (-) TimerEvent: {}
+[29.026854] (-) TimerEvent: {}
+[29.129404] (-) TimerEvent: {}
+[29.149225] (robot) StdoutLine: {'line': b'copying /home/tractor/ws/build/robot/build/lib/robot/stop_sign_detection_screen_shots.py -> /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[29.165448] (robot) StdoutLine: {'line': b'byte-compiling /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot/stop_sign_detection_screen_shots.py to stop_sign_detection_screen_shots.cpython-310.pyc\n'}
+[29.181694] (robot) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (stop_sign_detection_screen_shots.py, line 54)\n'}
+[29.185448] (robot) StdoutLine: {'line': b'running install_data\n'}
+[29.187526] (robot) StdoutLine: {'line': b'copying resource/robot -> /home/tractor/ws/install/robot/share/ament_index/resource_index/packages\n'}
+[29.197615] (robot) StdoutLine: {'line': b'copying package.xml -> /home/tractor/ws/install/robot/share/robot\n'}
+[29.198994] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[29.229685] (-) TimerEvent: {}
+[29.331365] (-) TimerEvent: {}
+[29.435258] (-) TimerEvent: {}
+[29.540156] (-) TimerEvent: {}
+[29.647753] (-) TimerEvent: {}
+[29.750158] (-) TimerEvent: {}
+[29.826359] (robot) StdoutLine: {'line': b"removing '/home/tractor/ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[29.838247] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info\n'}
+[29.850331] (-) TimerEvent: {}
+[29.862293] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[29.950943] (-) TimerEvent: {}
+[30.052755] (-) TimerEvent: {}
+[30.158302] (-) TimerEvent: {}
+[30.259618] (-) TimerEvent: {}
+[30.360604] (-) TimerEvent: {}
+[30.462430] (-) TimerEvent: {}
+[30.566230] (-) TimerEvent: {}
+[30.675524] (-) TimerEvent: {}
+[30.780766] (-) TimerEvent: {}
+[30.885863] (-) TimerEvent: {}
+[30.989910] (-) TimerEvent: {}
+[31.091559] (-) TimerEvent: {}
+[31.193795] (-) TimerEvent: {}
+[31.296407] (-) TimerEvent: {}
+[31.399655] (-) TimerEvent: {}
+[31.502039] (-) TimerEvent: {}
+[31.603027] (-) TimerEvent: {}
+[31.706789] (-) TimerEvent: {}
+[31.811352] (-) TimerEvent: {}
+[31.914094] (-) TimerEvent: {}
+[32.016720] (-) TimerEvent: {}
+[32.119956] (-) TimerEvent: {}
+[32.223169] (-) TimerEvent: {}
+[32.327144] (-) TimerEvent: {}
+[32.430720] (-) TimerEvent: {}
+[32.532371] (-) TimerEvent: {}
+[32.636411] (-) TimerEvent: {}
+[32.739749] (-) TimerEvent: {}
+[32.843048] (-) TimerEvent: {}
+[32.945823] (-) TimerEvent: {}
+[33.049535] (-) TimerEvent: {}
+[33.152744] (-) TimerEvent: {}
+[33.255631] (-) TimerEvent: {}
+[33.357991] (-) TimerEvent: {}
+[33.462558] (-) TimerEvent: {}
+[33.566977] (-) TimerEvent: {}
+[33.669505] (-) TimerEvent: {}
+[33.779098] (-) TimerEvent: {}
+[33.881882] (-) TimerEvent: {}
+[33.989221] (-) TimerEvent: {}
+[34.093196] (-) TimerEvent: {}
+[34.207654] (-) TimerEvent: {}
+[34.311900] (-) TimerEvent: {}
+[34.415370] (-) TimerEvent: {}
+[34.517146] (-) TimerEvent: {}
+[34.619539] (-) TimerEvent: {}
+[34.622767] (robot) StdoutLine: {'line': b'Installing Locomotion script to /home/tractor/ws/install/robot/lib/robot\n'}
+[34.626508] (robot) StdoutLine: {'line': b'Installing stop script to /home/tractor/ws/install/robot/lib/robot\n'}
+[34.643962] (robot) StdoutLine: {'line': b'Installing vision script to /home/tractor/ws/install/robot/lib/robot\n'}
+[34.657638] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/tractor/ws/build/robot/install.log'\n"}
+[34.720040] (-) TimerEvent: {}
+[34.822744] (-) TimerEvent: {}
+[34.925812] (-) TimerEvent: {}
+[35.028340] (-) TimerEvent: {}
+[35.131626] (-) TimerEvent: {}
+[35.213489] (robot) CommandEnded: {'returncode': 0}
+[35.232978] (-) TimerEvent: {}
+[35.336748] (-) TimerEvent: {}
+[35.409058] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[35.433797] (-) EventReactorShutdown: {}

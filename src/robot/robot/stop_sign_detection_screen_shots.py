@@ -30,8 +30,8 @@ class Stop(Node):
 		    # Used to convert between ROS and OpenCV images
 		self.br = CvBridge()
 
-	# Load haar cascade xml file
-	stop_sign_cascade = cv2.CascadeClassifier('stop_sign_classifier_2.xml')
+	# Load haar cascade xml file /ws/src/robot/robot
+	stop_sign_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'stop_sign_classifier_2.xml')
 
 	def listener_callback(self, data):
 		### Take screen shots
@@ -51,6 +51,7 @@ class Stop(Node):
 		cv2.imshow('screenshot',gray_filered)
 		
 	    # Detection
+		#stop_sign_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'stop_sign_classifier_2.xml')
 		stop_signs = stop_sign_cascade.detectMultiScale(gray_filered, scaleFactor=1.05, minNeighbors=5, minSize=(5, 5))
 		
 		print(len(stop_signs))

@@ -1,0 +1,595 @@
+[0.000000] (-) TimerEvent: {}
+[0.002035] (astra_camera_msgs) JobQueued: {'identifier': 'astra_camera_msgs', 'dependencies': OrderedDict()}
+[0.002593] (libuvc) JobQueued: {'identifier': 'libuvc', 'dependencies': OrderedDict()}
+[0.002781] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.002865] (astra_camera) JobQueued: {'identifier': 'astra_camera', 'dependencies': OrderedDict([('astra_camera_msgs', '/home/tractor/ws/install/astra_camera_msgs')])}
+[0.003144] (astra_camera_msgs) JobStarted: {'identifier': 'astra_camera_msgs'}
+[0.051128] (libuvc) JobStarted: {'identifier': 'libuvc'}
+[0.074690] (robot) JobStarted: {'identifier': 'robot'}
+[0.099058] (-) TimerEvent: {}
+[0.122384] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'cmake'}
+[0.135006] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'build'}
+[0.137778] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tractor/ws/build/astra_camera_msgs', '--', '-j4', '-l4'], 'cwd': '/home/tractor/ws/build/astra_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tractor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tractor'), ('OLDPWD', '/home/tractor'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1735'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tractor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tractor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tractor-desktop:@/tmp/.ICE-unix/1706,unix/tractor-desktop:/tmp/.ICE-unix/1706'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/694396d9_253c_4cbd_9a60_f947c055ff7d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2XDN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tractor/ws/build/astra_camera_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.160484] (libuvc) JobProgress: {'identifier': 'libuvc', 'progress': 'cmake'}
+[0.170936] (libuvc) JobProgress: {'identifier': 'libuvc', 'progress': 'build'}
+[0.172297] (libuvc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tractor/ws/build/libuvc', '--', '-j4', '-l4'], 'cwd': '/home/tractor/ws/build/libuvc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tractor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tractor'), ('OLDPWD', '/home/tractor'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1735'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tractor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tractor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tractor-desktop:@/tmp/.ICE-unix/1706,unix/tractor-desktop:/tmp/.ICE-unix/1706'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/694396d9_253c_4cbd_9a60_f947c055ff7d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2XDN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tractor/ws/build/libuvc'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.199233] (-) TimerEvent: {}
+[0.300133] (-) TimerEvent: {}
+[0.401155] (-) TimerEvent: {}
+[0.502443] (-) TimerEvent: {}
+[0.603594] (-) TimerEvent: {}
+[0.704548] (-) TimerEvent: {}
+[0.714487] (libuvc) StdoutLine: {'line': b'[ 45%] Built target uvc_static\n'}
+[0.726626] (libuvc) StdoutLine: {'line': b'[ 90%] Built target uvc\n'}
+[0.778706] (astra_camera_msgs) StdoutLine: {'line': b'[  1%] Built target astra_camera_msgs__cpp\n'}
+[0.804754] (-) TimerEvent: {}
+[0.869323] (libuvc) StdoutLine: {'line': b'[100%] Built target example\n'}
+[0.905038] (-) TimerEvent: {}
+[0.928933] (astra_camera_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_astra_camera_msgs\n'}
+[0.940856] (astra_camera_msgs) StdoutLine: {'line': b'[ 12%] Built target astra_camera_msgs__rosidl_generator_c\n'}
+[1.005257] (-) TimerEvent: {}
+[1.051223] (astra_camera_msgs) StdoutLine: {'line': b'[ 24%] Built target astra_camera_msgs__rosidl_typesupport_cpp\n'}
+[1.061233] (astra_camera_msgs) StdoutLine: {'line': b'[ 35%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.105785] (-) TimerEvent: {}
+[1.161924] (astra_camera_msgs) StdoutLine: {'line': b'[ 47%] Built target astra_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.205996] (-) TimerEvent: {}
+[1.271998] (astra_camera_msgs) StdoutLine: {'line': b'[ 58%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[1.291938] (astra_camera_msgs) StdoutLine: {'line': b'[ 70%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.306291] (-) TimerEvent: {}
+[1.336480] (astra_camera_msgs) StdoutLine: {'line': b'[ 82%] Built target astra_camera_msgs__rosidl_typesupport_c\n'}
+[1.406512] (-) TimerEvent: {}
+[1.449056] (astra_camera_msgs) StdoutLine: {'line': b'[ 82%] Built target astra_camera_msgs\n'}
+[1.506757] (-) TimerEvent: {}
+[1.590615] (astra_camera_msgs) StdoutLine: {'line': b'[ 83%] Built target astra_camera_msgs__py\n'}
+[1.607071] (-) TimerEvent: {}
+[1.692102] (libuvc) CommandEnded: {'returncode': 0}
+[1.707280] (-) TimerEvent: {}
+[1.785898] (astra_camera_msgs) StdoutLine: {'line': b'[ 93%] Built target astra_camera_msgs__rosidl_generator_py\n'}
+[1.807512] (-) TimerEvent: {}
+[1.908839] (-) TimerEvent: {}
+[1.994999] (astra_camera_msgs) StdoutLine: {'line': b'[ 95%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.007606] (astra_camera_msgs) StdoutLine: {'line': b'[ 97%] Built target astra_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[2.009038] (-) TimerEvent: {}
+[2.019648] (astra_camera_msgs) StdoutLine: {'line': b'[100%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.109299] (-) TimerEvent: {}
+[2.120396] (libuvc) JobProgress: {'identifier': 'libuvc', 'progress': 'install'}
+[2.156810] (libuvc) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tractor/ws/build/libuvc'], 'cwd': '/home/tractor/ws/build/libuvc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tractor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tractor'), ('OLDPWD', '/home/tractor'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1735'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tractor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tractor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tractor-desktop:@/tmp/.ICE-unix/1706,unix/tractor-desktop:/tmp/.ICE-unix/1706'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/694396d9_253c_4cbd_9a60_f947c055ff7d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2XDN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tractor/ws/build/libuvc'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[2.198876] (libuvc) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.207950] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/libuvc.so.0.0.7\n'}
+[2.208840] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/libuvc.so.0\n'}
+[2.209382] (-) TimerEvent: {}
+[2.210819] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/libuvc.so\n'}
+[2.213614] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/include/libuvc/libuvc.h\n'}
+[2.214654] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/include/libuvc/libuvc_config.h\n'}
+[2.215423] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/libuvc.a\n'}
+[2.216007] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/include/libuvc/libuvc.h\n'}
+[2.216428] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/include/libuvc/libuvc_config.h\n'}
+[2.219600] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake\n'}
+[2.221827] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake\n'}
+[2.222994] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake\n'}
+[2.223898] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake\n'}
+[2.224959] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake\n'}
+[2.225957] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/pkgconfig/libuvc.pc\n'}
+[2.227302] (libuvc) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake\n'}
+[2.243189] (libuvc) CommandEnded: {'returncode': 0}
+[2.313132] (-) TimerEvent: {}
+[2.377057] (libuvc) JobEnded: {'identifier': 'libuvc', 'rc': 0}
+[2.413330] (-) TimerEvent: {}
+[2.461477] (astra_camera_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.513513] (-) TimerEvent: {}
+[2.537328] (astra_camera_msgs) StdoutLine: {'line': b'writing astra_camera_msgs.egg-info/PKG-INFO\n'}
+[2.539753] (astra_camera_msgs) StdoutLine: {'line': b'writing dependency_links to astra_camera_msgs.egg-info/dependency_links.txt\n'}
+[2.543944] (astra_camera_msgs) StdoutLine: {'line': b'writing top-level names to astra_camera_msgs.egg-info/top_level.txt\n'}
+[2.613745] (-) TimerEvent: {}
+[2.714714] (-) TimerEvent: {}
+[2.785044] (astra_camera_msgs) StdoutLine: {'line': b"reading manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[2.791818] (astra_camera_msgs) StdoutLine: {'line': b"writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[2.814938] (-) TimerEvent: {}
+[2.918630] (-) TimerEvent: {}
+[2.953903] (astra_camera_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_astra_camera_msgs_egg\n'}
+[3.004720] (astra_camera_msgs) CommandEnded: {'returncode': 0}
+[3.018799] (-) TimerEvent: {}
+[3.119662] (-) TimerEvent: {}
+[3.220826] (-) TimerEvent: {}
+[3.321540] (-) TimerEvent: {}
+[3.422306] (-) TimerEvent: {}
+[3.523046] (-) TimerEvent: {}
+[3.623744] (-) TimerEvent: {}
+[3.724526] (-) TimerEvent: {}
+[3.825194] (-) TimerEvent: {}
+[3.925839] (-) TimerEvent: {}
+[4.026968] (-) TimerEvent: {}
+[4.127691] (-) TimerEvent: {}
+[4.228368] (-) TimerEvent: {}
+[4.275728] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'install'}
+[4.276808] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tractor/ws/build/astra_camera_msgs'], 'cwd': '/home/tractor/ws/build/astra_camera_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tractor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tractor'), ('OLDPWD', '/home/tractor'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1735'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tractor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tractor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tractor-desktop:@/tmp/.ICE-unix/1706,unix/tractor-desktop:/tmp/.ICE-unix/1706'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/694396d9_253c_4cbd_9a60_f947c055ff7d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2XDN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tractor/ws/build/astra_camera_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.328538] (-) TimerEvent: {}
+[4.334212] (astra_camera_msgs) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[4.379600] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/astra_camera_msgs\n'}
+[4.397434] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[4.398456] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[4.399508] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[4.400931] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.h\n'}
+[4.401530] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.h\n'}
+[4.402160] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.c\n'}
+[4.402775] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.c\n'}
+[4.403388] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.h\n'}
+[4.403908] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.h\n'}
+[4.404485] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.c\n'}
+[4.405080] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.h\n'}
+[4.405620] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.h\n'}
+[4.406246] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.h\n'}
+[4.406897] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.h\n'}
+[4.407487] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.h\n'}
+[4.408026] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.h\n'}
+[4.408516] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.c\n'}
+[4.409068] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.h\n'}
+[4.409500] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.c\n'}
+[4.410208] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.h\n'}
+[4.411430] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.h\n'}
+[4.411881] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.c\n'}
+[4.412166] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.h\n'}
+[4.412433] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.h\n'}
+[4.412696] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.h\n'}
+[4.412958] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.h\n'}
+[4.413272] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.h\n'}
+[4.413558] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.h\n'}
+[4.413996] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.h\n'}
+[4.414433] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.h\n'}
+[4.414917] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.h\n'}
+[4.415605] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.h\n'}
+[4.416121] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.h\n'}
+[4.416593] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[4.417153] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[4.417740] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.h\n'}
+[4.418325] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.h\n'}
+[4.418901] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.h\n'}
+[4.419505] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.c\n'}
+[4.420099] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.h\n'}
+[4.420562] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.c\n'}
+[4.420925] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.h\n'}
+[4.421365] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.h\n'}
+[4.421775] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.h\n'}
+[4.422499] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.c\n'}
+[4.423117] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.h\n'}
+[4.423572] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.h\n'}
+[4.424013] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.h\n'}
+[4.424459] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.h\n'}
+[4.424891] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.h\n'}
+[4.425266] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.425753] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.sh\n'}
+[4.426163] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.dsv\n'}
+[4.427289] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so\n'}
+[4.428656] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[4.429519] (-) TimerEvent: {}
+[4.430045] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[4.431101] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[4.431923] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h\n'}
+[4.432747] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[4.433435] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_c.h\n'}
+[4.434312] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h\n'}
+[4.435050] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h\n'}
+[4.435510] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h\n'}
+[4.435848] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[4.436227] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[4.436607] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[4.436980] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h\n'}
+[4.437312] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h\n'}
+[4.437667] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.438490] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.439913] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[4.440854] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[4.441887] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[4.442892] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h\n'}
+[4.443740] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h\n'}
+[4.444513] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h\n'}
+[4.445306] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h\n'}
+[4.446014] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.c\n'}
+[4.446787] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.c\n'}
+[4.447526] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.c\n'}
+[4.448436] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_c.h\n'}
+[4.449431] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.c\n'}
+[4.449827] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.c\n'}
+[4.450173] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.c\n'}
+[4.450518] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h\n'}
+[4.450843] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[4.451153] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[4.451447] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.c\n'}
+[4.451739] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h\n'}
+[4.452058] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.c\n'}
+[4.452529] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h\n'}
+[4.452889] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h\n'}
+[4.453254] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.c\n'}
+[4.453602] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.454502] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.461630] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so\n'}
+[4.462549] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[4.463828] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[4.464715] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[4.465879] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__traits.hpp\n'}
+[4.466770] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__builder.hpp\n'}
+[4.467804] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__traits.hpp\n'}
+[4.468736] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.hpp\n'}
+[4.469601] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.hpp\n'}
+[4.470577] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__builder.hpp\n'}
+[4.471124] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__builder.hpp\n'}
+[4.471942] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__traits.hpp\n'}
+[4.472996] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.hpp\n'}
+[4.474037] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__traits.hpp\n'}
+[4.474907] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.hpp\n'}
+[4.475793] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__traits.hpp\n'}
+[4.476523] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__builder.hpp\n'}
+[4.477400] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.hpp\n'}
+[4.477946] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__builder.hpp\n'}
+[4.479118] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.hpp\n'}
+[4.479886] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__traits.hpp\n'}
+[4.480643] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__builder.hpp\n'}
+[4.481465] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.hpp\n'}
+[4.482141] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.hpp\n'}
+[4.484139] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.hpp\n'}
+[4.484527] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.hpp\n'}
+[4.484853] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.hpp\n'}
+[4.485191] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.hpp\n'}
+[4.485907] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[4.486645] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[4.487207] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__builder.hpp\n'}
+[4.487657] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__builder.hpp\n'}
+[4.488080] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__traits.hpp\n'}
+[4.488820] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.hpp\n'}
+[4.489190] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__builder.hpp\n'}
+[4.489557] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__traits.hpp\n'}
+[4.490548] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.hpp\n'}
+[4.491311] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.hpp\n'}
+[4.492332] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__traits.hpp\n'}
+[4.493432] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.hpp\n'}
+[4.494462] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.hpp\n'}
+[4.495288] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.hpp\n'}
+[4.496097] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[4.496757] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[4.497884] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[4.498980] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.499459] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.499886] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/dds_fastrtps\n'}
+[4.500205] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.500516] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.500823] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.501126] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.501426] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[4.501725] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[4.502148] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/dds_fastrtps\n'}
+[4.502544] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.502968] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.503300] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.503656] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.504234] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.504883] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[4.505312] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[4.505730] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[4.506171] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.506579] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.506979] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp\n'}
+[4.507321] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.507727] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.cpp\n'}
+[4.508090] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.508464] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp\n'}
+[4.509178] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp\n'}
+[4.509654] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.cpp\n'}
+[4.510237] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.cpp\n'}
+[4.511214] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.511649] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.512049] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[4.512390] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[4.512713] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.513015] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp\n'}
+[4.513353] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.514161] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.514637] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.cpp\n'}
+[4.515358] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.cpp\n'}
+[4.515763] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.516104] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so\n'}
+[4.516773] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.sh\n'}
+[4.517170] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.dsv\n'}
+[4.517553] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info\n'}
+[4.518253] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[4.518826] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/top_level.txt\n'}
+[4.519306] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[4.519920] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/PKG-INFO\n'}
+[4.520883] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs\n'}
+[4.522060] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/libastra_camera_msgs__rosidl_generator_py.so\n'}
+[4.522921] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[4.523341] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv\n'}
+[4.523916] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string.py\n'}
+[4.525018] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info.py\n'}
+[4.526170] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32.py\n'}
+[4.527349] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string_s.c\n'}
+[4.528215] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32_s.c\n'}
+[4.528821] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32_s.c\n'}
+[4.529296] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info_s.c\n'}
+[4.530063] (-) TimerEvent: {}
+[4.530867] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info_s.c\n'}
+[4.532089] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/__init__.py\n'}
+[4.533187] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params_s.c\n'}
+[4.533982] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params.py\n'}
+[4.534629] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info.py\n'}
+[4.535100] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32.py\n'}
+[4.535448] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.535777] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg\n'}
+[4.536180] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics.py\n'}
+[4.536672] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata.py\n'}
+[4.537162] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info_s.c\n'}
+[4.537504] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata_s.c\n'}
+[4.537848] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info.py\n'}
+[4.538388] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/__init__.py\n'}
+[4.538811] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics_s.c\n'}
+[4.539206] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.539681] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.540402] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.541043] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.541502] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/__init__.py\n'}
+[4.630238] (-) TimerEvent: {}
+[4.715628] (astra_camera_msgs) StdoutLine: {'line': b"Listing '/home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs'...\n"}
+[4.717589] (astra_camera_msgs) StdoutLine: {'line': b"Listing '/home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg'...\n"}
+[4.719260] (astra_camera_msgs) StdoutLine: {'line': b"Listing '/home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv'...\n"}
+[4.730476] (-) TimerEvent: {}
+[4.748546] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.753142] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.760678] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.763435] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_py.so\n'}
+[4.765743] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.idl\n'}
+[4.766613] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.idl\n'}
+[4.767301] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.idl\n'}
+[4.768022] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.idl\n'}
+[4.768671] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.idl\n'}
+[4.769374] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.idl\n'}
+[4.769932] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.idl\n'}
+[4.770581] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.idl\n'}
+[4.771172] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.idl\n'}
+[4.771898] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.msg\n'}
+[4.772387] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.msg\n'}
+[4.773030] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.msg\n'}
+[4.773565] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.srv\n'}
+[4.774340] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Request.msg\n'}
+[4.775019] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Response.msg\n'}
+[4.775613] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.srv\n'}
+[4.776311] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Request.msg\n'}
+[4.776954] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Response.msg\n'}
+[4.777559] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.srv\n'}
+[4.778194] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Request.msg\n'}
+[4.778897] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Response.msg\n'}
+[4.779452] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.srv\n'}
+[4.780058] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Request.msg\n'}
+[4.780623] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Response.msg\n'}
+[4.781170] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.srv\n'}
+[4.781849] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Request.msg\n'}
+[4.782615] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Response.msg\n'}
+[4.783128] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.srv\n'}
+[4.783805] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Request.msg\n'}
+[4.784744] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Response.msg\n'}
+[4.785440] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/ament_index/resource_index/package_run_dependencies/astra_camera_msgs\n'}
+[4.786647] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/ament_index/resource_index/parent_prefix_path/astra_camera_msgs\n'}
+[4.787384] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.sh\n'}
+[4.788111] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.dsv\n'}
+[4.788704] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.sh\n'}
+[4.789312] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.dsv\n'}
+[4.789906] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.bash\n'}
+[4.790594] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.sh\n'}
+[4.791169] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.zsh\n'}
+[4.791825] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.dsv\n'}
+[4.792359] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv\n'}
+[4.796790] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/ament_index/resource_index/packages/astra_camera_msgs\n'}
+[4.801571] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport.cmake\n'}
+[4.802483] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport-release.cmake\n'}
+[4.804823] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.805489] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[4.808007] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.808700] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[4.811280] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.812014] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport-release.cmake\n'}
+[4.814041] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.816533] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.817313] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[4.819832] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.820560] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[4.823168] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.823886] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport-release.cmake\n'}
+[4.826353] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport.cmake\n'}
+[4.827136] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport-release.cmake\n'}
+[4.827773] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.828408] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.829006] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.829651] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.830426] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.831062] (-) TimerEvent: {}
+[4.831514] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.832288] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.832909] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig.cmake\n'}
+[4.833544] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig-version.cmake\n'}
+[4.833980] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera_msgs/share/astra_camera_msgs/package.xml\n'}
+[4.843586] (astra_camera_msgs) CommandEnded: {'returncode': 0}
+[4.931252] (-) TimerEvent: {}
+[5.032481] (-) TimerEvent: {}
+[5.133390] (-) TimerEvent: {}
+[5.234965] (-) TimerEvent: {}
+[5.336724] (-) TimerEvent: {}
+[5.386785] (robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/tractor/ws/build/robot/build', 'install', '--record', '/home/tractor/ws/build/robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tractor/ws/src/robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tractor', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tractor', 'OLDPWD': '/home/tractor', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1735', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tractor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tractor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tractor-desktop:@/tmp/.ICE-unix/1706,unix/tractor-desktop:/tmp/.ICE-unix/1706', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/694396d9_253c_4cbd_9a60_f947c055ff7d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.W2XDN2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.128', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tractor/ws/build/robot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tractor/ws/build/robot/prefix_override:/home/tractor/ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.436893] (-) TimerEvent: {}
+[5.537729] (-) TimerEvent: {}
+[5.638738] (-) TimerEvent: {}
+[5.739526] (-) TimerEvent: {}
+[5.840186] (-) TimerEvent: {}
+[5.941428] (-) TimerEvent: {}
+[6.042411] (-) TimerEvent: {}
+[6.143317] (-) TimerEvent: {}
+[6.240701] (astra_camera_msgs) JobEnded: {'identifier': 'astra_camera_msgs', 'rc': 0}
+[6.246237] (-) TimerEvent: {}
+[6.246887] (astra_camera) JobStarted: {'identifier': 'astra_camera'}
+[6.295344] (astra_camera) JobProgress: {'identifier': 'astra_camera', 'progress': 'cmake'}
+[6.303867] (astra_camera) JobProgress: {'identifier': 'astra_camera', 'progress': 'build'}
+[6.305181] (astra_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tractor/ws/build/astra_camera', '--', '-j4', '-l4'], 'cwd': '/home/tractor/ws/build/astra_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tractor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tractor/ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tractor'), ('OLDPWD', '/home/tractor'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1735'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tractor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tractor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tractor-desktop:@/tmp/.ICE-unix/1706,unix/tractor-desktop:/tmp/.ICE-unix/1706'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/694396d9_253c_4cbd_9a60_f947c055ff7d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2XDN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tractor/ws/install/astra_camera_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tractor/ws/build/astra_camera'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tractor/ws/install/astra_camera_msgs:/opt/ros/humble')]), 'shell': False}
+[6.346429] (-) TimerEvent: {}
+[6.447092] (-) TimerEvent: {}
+[6.547787] (-) TimerEvent: {}
+[6.648608] (-) TimerEvent: {}
+[6.668717] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[6.748087] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[6.748641] (-) TimerEvent: {}
+[6.751064] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[6.752287] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[6.753367] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[6.754290] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[6.848813] (-) TimerEvent: {}
+[6.918059] (astra_camera) StdoutLine: {'line': b'[ 68%] Built target astra_camera\n'}
+[6.925792] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[6.932363] (robot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.935555] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[6.936421] (robot) StdoutLine: {'line': b'running build\n'}
+[6.937171] (robot) StdoutLine: {'line': b'running build_py\n'}
+[6.948462] (robot) StdoutLine: {'line': b'copying robot/vision.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[6.949165] (-) TimerEvent: {}
+[6.951276] (robot) StdoutLine: {'line': b'copying robot/startRobot.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[6.954750] (robot) StdoutLine: {'line': b'copying robot/stop_sign_detection_screen_shots.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[6.957930] (robot) StdoutLine: {'line': b'copying robot/Locomotion.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[6.960793] (robot) StdoutLine: {'line': b'copying robot/__init__.py -> /home/tractor/ws/build/robot/build/lib/robot\n'}
+[6.963286] (robot) StdoutLine: {'line': b'running install\n'}
+[6.994694] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[7.049471] (-) TimerEvent: {}
+[7.060505] (astra_camera) StdoutLine: {'line': b'[ 78%] Built target clean_shm_node\n'}
+[7.092262] (astra_camera) StdoutLine: {'line': b'[ 89%] Built target list_devices_node\n'}
+[7.107154] (astra_camera) StdoutLine: {'line': b'[100%] Built target astra_camera_node\n'}
+[7.121362] (robot) StdoutLine: {'line': b'copying /home/tractor/ws/build/robot/build/lib/robot/stop_sign_detection_screen_shots.py -> /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[7.127642] (robot) StdoutLine: {'line': b'byte-compiling /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot/stop_sign_detection_screen_shots.py to stop_sign_detection_screen_shots.cpython-310.pyc\n'}
+[7.132272] (robot) StdoutLine: {'line': b'running install_data\n'}
+[7.134678] (robot) StdoutLine: {'line': b'copying resource/robot -> /home/tractor/ws/install/robot/share/ament_index/resource_index/packages\n'}
+[7.135924] (robot) StdoutLine: {'line': b'copying package.xml -> /home/tractor/ws/install/robot/share/robot\n'}
+[7.136957] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.149625] (-) TimerEvent: {}
+[7.152121] (astra_camera) CommandEnded: {'returncode': 0}
+[7.230248] (robot) StdoutLine: {'line': b"removing '/home/tractor/ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.232138] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/tractor/ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info\n'}
+[7.242354] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[7.249780] (-) TimerEvent: {}
+[7.350843] (-) TimerEvent: {}
+[7.451887] (-) TimerEvent: {}
+[7.478904] (astra_camera) JobProgress: {'identifier': 'astra_camera', 'progress': 'install'}
+[7.480350] (astra_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tractor/ws/build/astra_camera'], 'cwd': '/home/tractor/ws/build/astra_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tractor'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tractor/ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tractor'), ('OLDPWD', '/home/tractor'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1735'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tractor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tractor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tractor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tractor-desktop:@/tmp/.ICE-unix/1706,unix/tractor-desktop:/tmp/.ICE-unix/1706'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/694396d9_253c_4cbd_9a60_f947c055ff7d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2XDN2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tractor/ws/install/astra_camera_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tractor/ws/build/astra_camera'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tractor/ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tractor/ws/install/astra_camera_msgs:/opt/ros/humble')]), 'shell': False}
+[7.518851] (astra_camera) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[7.524428] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/lib/libastra_camera.so\n'}
+[7.527356] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/lib/libOpenNI2.so\n'}
+[7.528074] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/lib//OpenNI2\n'}
+[7.529753] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/lib//OpenNI2/Drivers\n'}
+[7.531485] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/lib//OpenNI2/Drivers/libOniFile.so\n'}
+[7.532172] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/lib//OpenNI2/Drivers/OniFile.ini\n'}
+[7.532768] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/lib//OpenNI2/Drivers/orbbec.ini\n'}
+[7.533320] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/lib//OpenNI2/Drivers/liborbbec.so\n'}
+[7.539925] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/lib/astra_camera/list_devices_node\n'}
+[7.545047] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/lib/astra_camera/clean_shm_node\n'}
+[7.550047] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/lib/astra_camera/astra_camera_node\n'}
+[7.551468] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include\n'}
+[7.551967] (-) TimerEvent: {}
+[7.552728] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2\n'}
+[7.553899] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/Linux-Arm\n'}
+[7.554936] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/Linux-Arm/OniPlatformLinux-Arm.h\n'}
+[7.555655] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/OpenNI.h\n'}
+[7.556411] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/OniCTypes.h\n'}
+[7.557063] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/util.h\n'}
+[7.557730] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/SonixCamera.h\n'}
+[7.558257] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/PrimeSense.h\n'}
+[7.558837] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/OniEnums.h\n'}
+[7.559487] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/OniCEnums.h\n'}
+[7.559887] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/PS1080.h\n'}
+[7.560295] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/OniVersion.h\n'}
+[7.560678] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/OniCProperties.h\n'}
+[7.561471] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/Linux-x86\n'}
+[7.561996] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/Linux-x86/OniPlatformLinux-x86.h\n'}
+[7.562543] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/OniPlatform.h\n'}
+[7.563053] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/Driver\n'}
+[7.563475] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/Driver/OniDriverAPI.h\n'}
+[7.564185] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/Driver/OniDriverTypes.h\n'}
+[7.564650] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/OniTest.h\n'}
+[7.565059] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/MacOSX\n'}
+[7.565427] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/MacOSX/OniPlatformMacOSX.h\n'}
+[7.565930] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/OniCAPI.h\n'}
+[7.566691] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/Android-Arm\n'}
+[7.567215] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/Android-Arm/OniPlatformAndroid-Arm.h\n'}
+[7.567598] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/KinectProperties.h\n'}
+[7.568254] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/OniProperties.h\n'}
+[7.568671] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/openni2/PSLink.h\n'}
+[7.569176] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/magic_enum\n'}
+[7.569822] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/magic_enum/magic_enum.hpp\n'}
+[7.570578] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera\n'}
+[7.571222] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/ob_timer_filter.h\n'}
+[7.571919] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/ob_camera_node.h\n'}
+[7.572440] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/dynamic_params.h\n'}
+[7.572828] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/utils.h\n'}
+[7.573369] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/constants.h\n'}
+[7.574060] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/ros_param_backend.h\n'}
+[7.574604] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/json.hpp\n'}
+[7.575004] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/ob_context.h\n'}
+[7.575369] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/uvc_camera_driver.h\n'}
+[7.575989] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/types.h\n'}
+[7.576377] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/ob_camera_node_factory.h\n'}
+[7.576754] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/point_cloud_proc\n'}
+[7.577104] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyzrgb.h\n'}
+[7.577635] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyz.h\n'}
+[7.578420] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/point_cloud_proc/depth_traits.h\n'}
+[7.578968] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_proc.h\n'}
+[7.579383] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch\n'}
+[7.579786] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/dabai_pro.launch.xml\n'}
+[7.580183] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/multi_dabai_pro.launch.xml\n'}
+[7.580567] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/dabai_dc1.launch.xml\n'}
+[7.580987] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/astra.launch.xml\n'}
+[7.586160] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/dabai_dcw.launch.xml\n'}
+[7.586931] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/embedded_s.launch.xml\n'}
+[7.587902] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/embedded_u3.launch.xml\n'}
+[7.588658] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/multi_gemini.launch.xml\n'}
+[7.589481] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/stereo_s.launch.xml\n'}
+[7.589993] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/dabai_u3.launch.xml\n'}
+[7.590442] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/multi_dabai_dcw.launch.xml\n'}
+[7.590839] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/astro_pro_plus.launch.xml\n'}
+[7.591155] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/deeyea.launch.xml\n'}
+[7.591470] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/list_devices.launch.xml\n'}
+[7.591779] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/.gitkeep\n'}
+[7.592098] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/multi_astra.launch.xml\n'}
+[7.592506] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/stereo_s_u3.launch.xml\n'}
+[7.593099] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/multi_deeyea.launch.xml\n'}
+[7.593681] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/gemini.launch.xml\n'}
+[7.594147] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/astra_pro.launch.xml\n'}
+[7.594577] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/gemini_e.launch.xml\n'}
+[7.594980] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/dabai_dw.launch.xml\n'}
+[7.595371] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera//launch/gemini_e_lite.launch.xml\n'}
+[7.595979] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/environment/library_path.sh\n'}
+[7.596462] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/environment/library_path.dsv\n'}
+[7.596984] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/ament_index/resource_index/package_run_dependencies/astra_camera\n'}
+[7.597424] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/ament_index/resource_index/parent_prefix_path/astra_camera\n'}
+[7.597988] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.sh\n'}
+[7.598792] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.dsv\n'}
+[7.599434] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/environment/path.sh\n'}
+[7.599965] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/environment/path.dsv\n'}
+[7.600599] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/local_setup.bash\n'}
+[7.601245] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/local_setup.sh\n'}
+[7.601802] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/local_setup.zsh\n'}
+[7.602414] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/local_setup.dsv\n'}
+[7.602832] (astra_camera) StdoutLine: {'line': b'-- Installing: /home/tractor/ws/install/astra_camera/share/astra_camera/package.dsv\n'}
+[7.604798] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/ament_index/resource_index/packages/astra_camera\n'}
+[7.606011] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.606822] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.607534] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.608265] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake\n'}
+[7.608855] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake\n'}
+[7.609312] (astra_camera) StdoutLine: {'line': b'-- Up-to-date: /home/tractor/ws/install/astra_camera/share/astra_camera/package.xml\n'}
+[7.614812] (astra_camera) CommandEnded: {'returncode': 0}
+[7.652402] (-) TimerEvent: {}
+[7.753223] (-) TimerEvent: {}
+[7.854433] (-) TimerEvent: {}
+[7.955263] (-) TimerEvent: {}
+[8.033704] (astra_camera) JobEnded: {'identifier': 'astra_camera', 'rc': 0}
+[8.055461] (-) TimerEvent: {}
+[8.080526] (robot) StdoutLine: {'line': b'Installing Locomotion script to /home/tractor/ws/install/robot/lib/robot\n'}
+[8.086290] (robot) StdoutLine: {'line': b'Installing stop script to /home/tractor/ws/install/robot/lib/robot\n'}
+[8.087810] (robot) StdoutLine: {'line': b'Installing vision script to /home/tractor/ws/install/robot/lib/robot\n'}
+[8.090998] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/tractor/ws/build/robot/install.log'\n"}
+[8.155788] (-) TimerEvent: {}
+[8.234923] (robot) CommandEnded: {'returncode': 0}
+[8.255946] (-) TimerEvent: {}
+[8.270490] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[8.273371] (-) EventReactorShutdown: {}

@@ -91,10 +91,10 @@ class Controller(Node):
     # robot chassis coordinate frame) to the /lab02/cmd_vel topic. 
     # Using the diff_drive plugin enables the robot model to read this
     # topic and execute the motion.
-    self.publisher_ = self.create_publisher(
-                      Twist, 
-                      '/robot/cmd_vel', 
-                      10)
+    #self.publisher_ = self.create_publisher(
+                      #Twist, 
+                      #'/robot/cmd_vel', 
+                      #10)
  
                            
     ################### ROBOT CONTROL PARAMETERS ##################
@@ -230,33 +230,37 @@ class Controller(Node):
     #wheelSpeeds = self.kinematics.toWheelSpeeds(chassisSpeeds)
 
     #calculate what left and right wheel speeds should be
-    left = (msg.linear.x+self.current_yaw_rate*5.25)/(4*3.14)#wheelSpeeds.left*4*3.14
-    right = (msg.linear.x-self.current_yaw_rate*5.25)/(4*3.14)#wheelSpeeds.right*4*3.14
+    left = (msg.linear.x+self.current_yaw_rate*5.25)/4*3.14 #wheelSpeeds.left*4*3.14
+    right = (msg.linear.x-self.current_yaw_rate*5.25)/4*3.14 #wheelSpeeds.right*4*3.14
     print(left)
     print(right)
     #Left Motor
     if left >= 5.25: #Saturated forward
         lpwm = 10.4
     elif (left > 1.5 and left < 5.25): # Forward PWM range
-        lpwm = (-((-19.998-math.sqrt(-4.0968*left+22.4080776))/(2.0484)))
+        #lpwm = (-((-19.998-math.sqrt(-4.0968*left+22.4080776))/(2.0484)))
         #lpwm = -((-11933+math.sqrt(-5144000*left+28436313))/(2572))
         #lpwm = 7.2-(10.4-rpwm)
+        lpwm = 8.75
     elif left <= -5.25: #Satured Backward
         lpwm = 4.4
     elif (left < -1.25 and left > -5.25): # Reverse PWM range
-        lpwm = 10.4-(-((-11933+math.sqrt(-5144000*left+28436313))/(2572)))
+        #lpwm = 10.4-(-((-11933+math.sqrt(-5144000*left+28436313))/(2572)))
         #lpwm = -((-19.998+math.sqrt(-4.0968*left+22.4080776))/(2.0484))
+        lpwm = 5.25
     else: # Stop condition
         lpwm = 7.1
         
     if right >= 5.25: # Saturated forward
         rpwm = 4.4
     elif (right > 1.25 and right < 5.25): # Forward PWM range
-        rpwm = -((-19.998+math.sqrt(-4.0968*right+22.4080776))/(2.0484))
+        #rpwm = -((-19.998+math.sqrt(-4.0968*right+22.4080776))/(2.0484))
+        rpwm = 5.25
     elif right <= -5.25: # Saturated reverse
         rpwm = 10.4
     elif (right < -1.5 and right > -5.25): #reverse PWM range
-        rpwm = -((-11933+math.sqrt(-5144000*right+28436313))/(2572))
+        #rpwm = -((-11933+math.sqrt(-5144000*right+28436313))/(2572))
+        rpwm = 8.75
     else: #stop condition
         rpwm = 7.1
 

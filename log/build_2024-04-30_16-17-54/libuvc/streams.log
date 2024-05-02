@@ -1,0 +1,23 @@
+[0.134s] Invoking command in '/home/tractor/ws/build/libuvc': /usr/bin/cmake --build /home/tractor/ws/build/libuvc -- -j4 -l4
+[0.662s] [ 45%] Built target uvc_static
+[0.674s] [ 90%] Built target uvc
+[0.818s] [100%] Built target example
+[1.640s] Invoked command in '/home/tractor/ws/build/libuvc' returned '0': /usr/bin/cmake --build /home/tractor/ws/build/libuvc -- -j4 -l4
+[2.105s] Invoking command in '/home/tractor/ws/build/libuvc': /usr/bin/cmake --install /home/tractor/ws/build/libuvc
+[2.147s] -- Install configuration: "Release"
+[2.156s] -- Up-to-date: /home/tractor/ws/install/libuvc/lib/libuvc.so.0.0.7
+[2.156s] -- Up-to-date: /home/tractor/ws/install/libuvc/lib/libuvc.so.0
+[2.160s] -- Up-to-date: /home/tractor/ws/install/libuvc/lib/libuvc.so
+[2.162s] -- Up-to-date: /home/tractor/ws/install/libuvc/include/libuvc/libuvc.h
+[2.162s] -- Up-to-date: /home/tractor/ws/install/libuvc/include/libuvc/libuvc_config.h
+[2.163s] -- Up-to-date: /home/tractor/ws/install/libuvc/lib/libuvc.a
+[2.163s] -- Up-to-date: /home/tractor/ws/install/libuvc/include/libuvc/libuvc.h
+[2.164s] -- Up-to-date: /home/tractor/ws/install/libuvc/include/libuvc/libuvc_config.h
+[2.169s] -- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+[2.170s] -- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+[2.171s] -- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+[2.172s] -- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+[2.173s] -- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+[2.174s] -- Up-to-date: /home/tractor/ws/install/libuvc/lib/pkgconfig/libuvc.pc
+[2.175s] -- Up-to-date: /home/tractor/ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake
+[2.191s] Invoked command in '/home/tractor/ws/build/libuvc' returned '0': /usr/bin/cmake --install /home/tractor/ws/build/libuvc
